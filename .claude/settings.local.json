@@ -38,7 +38,10 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://farmadrux.vercel.app/curriculum)",
       "Bash(vercel rm:*)",
       "Bash(vercel --prod --yes --no-wait)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(vercel ls:*)",
+      "Bash(pdftotext \"/Users/drux/Documents/Drux/webFarmadrux/articulos/Reflexionando_otra_ciencia_para_Mexico.pdf\" -)",
+      "Bash(México\" with magazine-style pull quotes from the article text:*)"
     ]
   }
 }

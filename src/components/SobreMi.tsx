@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import SectionHeader from "./SectionHeader";
 import {
   FlaskConical,
@@ -65,21 +66,38 @@ export default function SobreMi() {
           subtitle="Soy Andrés Portilla Martínez. Mi trabajo articula farmacología, divulgación científica, reducción de riesgos y daños, derechos humanos y tecnología."
         />
 
-        {/* Narrative */}
-        <div className="glass-card p-8 md:p-12 mb-16 max-w-4xl mx-auto">
-          <div className="space-y-5 text-lavender/70 leading-relaxed text-base md:text-lg">
-              <p>
-                Soy farmacéutico de formación, divulgador por vocación y activista por convicción. A lo largo de mi trayectoria he trabajado en la intersección entre la ciencia, la salud comunitaria y la comunicación pública, con un enfoque particular en sustancias psicoactivas, farmacología y reducción de riesgos y daños.
-              </p>
-              <p>
-                Mi trabajo no se limita a explicar ciencia: busco transformar la conversación pública sobre drogas, salud y autonomía corporal. Creo que la información basada en evidencia, libre de estigma y centrada en derechos humanos puede salvar vidas, cambiar narrativas y construir comunidades más informadas y compasivas.
-              </p>
-              <p>
-                He colaborado con organizaciones y colectivos dedicados al análisis de sustancias, la educación comunitaria y el acompañamiento en salud. Al mismo tiempo, integro herramientas de programación, ciencia de datos, bioinformática e inteligencia artificial en proyectos orientados a la salud y la investigación.
-              </p>
-              <p>
-                <span className="text-fuchsia font-medium">Farmadrux</span> es el espacio donde todo converge: farmacología, ciencia, activismo, comunicación, tecnología, sensibilidad humana y pensamiento crítico.
-              </p>
+        {/* ── Photo + Narrative side by side ── */}
+        <div className="glass-card p-0 overflow-hidden mb-16 max-w-5xl mx-auto">
+          <div className="flex flex-col md:flex-row">
+            {/* Photo */}
+            <div className="relative w-full md:w-[340px] h-80 md:h-auto min-h-[360px] flex-shrink-0">
+              <Image
+                src="/drux-rrd.jpg"
+                alt="Andrés Portilla Martínez"
+                fill
+                className="object-cover"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#060212]/80 hidden md:block" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#060212]/90 to-transparent md:hidden" />
+            </div>
+            {/* Text */}
+            <div className="p-8 md:p-10 flex-1">
+              <div className="space-y-5 text-lavender/70 leading-relaxed text-base">
+                <p>
+                  Soy farmacéutico de formación, divulgador por vocación y activista por convicción. A lo largo de mi trayectoria he trabajado en la intersección entre la ciencia, la salud comunitaria y la comunicación pública, con un enfoque particular en sustancias psicoactivas, farmacología y reducción de riesgos y daños.
+                </p>
+                <p>
+                  Mi trabajo no se limita a explicar ciencia: busco transformar la conversación pública sobre drogas, salud y autonomía corporal. Creo que la información basada en evidencia, libre de estigma y centrada en derechos humanos puede salvar vidas, cambiar narrativas y construir comunidades más informadas y compasivas.
+                </p>
+                <p>
+                  He colaborado con organizaciones y colectivos dedicados al análisis de sustancias, la educación comunitaria y el acompañamiento en salud. Al mismo tiempo, integro herramientas de programación, ciencia de datos, bioinformática e inteligencia artificial en proyectos orientados a la salud y la investigación.
+                </p>
+                <p>
+                  <span className="text-fuchsia font-medium">Farmadrux</span> es el espacio donde todo converge: farmacología, ciencia, activismo, comunicación, tecnología, sensibilidad humana y pensamiento crítico.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 

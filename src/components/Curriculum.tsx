@@ -135,7 +135,7 @@ const skills = {
 
 export default function Curriculum() {
   return (
-    <section className="relative gradient-section py-24 md:py-36 overflow-hidden">
+    <section id="curriculum" className="relative gradient-section py-24 md:py-36 overflow-hidden">
       {/* Decorative orbs */}
       <div className="orb w-[400px] h-[400px] bg-purple-vivid/10 top-[10%] right-[-120px]" />
       <div className="orb w-[350px] h-[350px] bg-magenta/8 bottom-[20%] left-[-100px]" />

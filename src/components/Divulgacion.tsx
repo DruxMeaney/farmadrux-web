@@ -17,8 +17,9 @@ import {
   Users,
   Lightbulb,
   Quote,
-  ExternalLink,
   FileText,
+  Bookmark,
+  Feather,
 } from "lucide-react";
 
 /* ─── DIVULGACIÓN TOPICS ─── */
@@ -68,6 +69,30 @@ const featured = [
   { title: "Mitos sobre la automedicación: entre el riesgo y la autonomía", type: "Artículo", tag: "Salud pública" },
 ];
 
+/* ─── PULL QUOTES FROM THE ARTICLE ─── */
+const articleQuotes = [
+  {
+    text: "La ciencia no proporciona toda la información necesaria para tomar la mejor decisión. Confiar exclusivamente en la ciencia puede producir percepciones alteradas de la realidad.",
+    section: "Rechazar lo propio y favorecer lo extranjero",
+  },
+  {
+    text: "Si no hacemos política con y desde la ciencia, estamos dejando que otras personas tomen las decisiones por nosotros.",
+    section: "El meridiano científico",
+  },
+  {
+    text: "Convirtámonos en dueños de nuestra propia ciencia y acortemos la brecha del conocimiento para que este llegue a más personas.",
+    section: "La alternativa infernal y qué hacer",
+  },
+  {
+    text: "Los medicamentos no son los que tienen dosis, somos las personas quienes las tenemos.",
+    section: "Rechazar lo propio y favorecer lo extranjero",
+  },
+  {
+    text: "Utilicemos la pluma de la literatura como aliada para tejer ciencia con hilos de la imaginación y observación.",
+    section: "La alternativa infernal y qué hacer",
+  },
+];
+
 /* ─── HARM REDUCTION PRINCIPLES ─── */
 const principles = [
   {
@@ -102,8 +127,8 @@ const principles = [
   },
 ];
 
-/* ─── QUOTES ─── */
-const quotes = [
+/* ─── DAVID NUTT + PERSONAL QUOTES ─── */
+const rrdQuotes = [
   {
     text: "Si vamos a minimizar el daño, necesitamos una forma de medirlo y un marco de políticas que pueda responder a esta evidencia.",
     author: "Prof. David Nutt",
@@ -133,7 +158,7 @@ export default function Divulgacion() {
         />
 
         {/* ═══ TOPIC CARDS ═══ */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-24">
           {topics.map((t) => (
             <div key={t.title} className="glass-card p-7 group cursor-default">
               <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${t.color} bg-opacity-20 flex items-center justify-center mb-5 opacity-80 group-hover:opacity-100 transition-opacity`}>
@@ -145,54 +170,171 @@ export default function Divulgacion() {
           ))}
         </div>
 
-        {/* ═══ FEATURED ARTICLE: Reflexionando otra ciencia ═══ */}
-        <div className="mb-20">
-          <div className="glass-card p-0 overflow-hidden max-w-5xl mx-auto">
-            <div className="flex flex-col md:flex-row">
-              {/* Article cover image */}
-              <div className="relative w-full md:w-80 h-64 md:h-auto flex-shrink-0">
-                <Image
-                  src="/drux-rrd.jpg"
-                  alt="Reflexionando otra ciencia para México"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#060212]/80 hidden md:block" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#060212]/80 to-transparent md:hidden" />
-              </div>
-              {/* Content */}
-              <div className="p-8 md:p-10 flex-1 flex flex-col justify-center">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="text-[10px] px-3 py-1 rounded-full bg-gradient-to-r from-purple-vivid to-magenta text-white font-semibold uppercase tracking-wider">
-                    Artículo destacado
-                  </span>
-                  <span className="tag text-xs">Ensayo</span>
-                </div>
-                <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 leading-tight">
-                  Reflexionando otra ciencia para México
-                </h3>
-                <p className="text-lavender/60 leading-relaxed mb-2 text-sm">
-                  Dinámica de fluidos, UNAM · 2024 · ISSN en trámite
+        {/* ════════════════════════════════════════════════════════════════ */}
+        {/* ═══ EDITORIAL ARTICLE: Reflexionando otra ciencia ═══ */}
+        {/* ════════════════════════════════════════════════════════════════ */}
+        <div className="mb-24">
+          {/* Article header — magazine style */}
+          <div className="text-center mb-12">
+            <span className="tag mb-4 inline-block">Ensayo destacado</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight max-w-4xl mx-auto">
+              Reflexionando otra ciencia <span className="text-gradient">para México</span>
+            </h2>
+            <p className="mt-4 text-lavender/50 max-w-xl mx-auto">
+              Revista Materiales Avanzados · UNAM · Núm. 41 · julio–diciembre 2024
+            </p>
+            <div className="flex items-center justify-center gap-3 mt-4 text-sm text-lavender/40">
+              <Feather size={14} className="text-fuchsia/60" />
+              <span>Andrés Portilla Martínez</span>
+              <span className="text-lavender/20">·</span>
+              <span>ONG Disociadxs · Colectivo DiVU</span>
+            </div>
+            <div className="glow-line max-w-24 mx-auto mt-8 opacity-60" />
+          </div>
+
+          {/* Epigraph */}
+          <div className="max-w-3xl mx-auto mb-12">
+            <div className="border-l-2 border-fuchsia/30 pl-6 py-2">
+              <p className="text-lavender/60 italic text-lg leading-relaxed">
+                &ldquo;El trabajo de un buen escrito se desarrolla en tres niveles: uno musical, donde se compone; uno arquitectónico, donde se construye; y por último, uno textil, donde se teje.&rdquo;
+              </p>
+              <p className="text-sm text-fuchsia/50 mt-3 font-medium">— Walter Benjamin</p>
+            </div>
+          </div>
+
+          {/* Article body — editorial layout */}
+          <div className="max-w-3xl mx-auto space-y-8">
+
+            {/* Section 1 */}
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-5 flex items-center gap-3">
+                <Bookmark size={20} className="text-fuchsia" />
+                Rechazar lo propio y favorecer lo extranjero
+              </h3>
+              <div className="space-y-4 text-lavender/65 leading-relaxed">
+                <p>
+                  La ciencia ha influenciado ampliamente a la filosofía moderna y ha reemplazado muchas de las especulaciones metafísicas con puntos de partida diferentes. Desafortunadamente, la situación de regreso no es igual. En la actualidad, la ciencia se ha olvidado de la filosofía y ha cerrado sus puertas. El cientificismo domina discursos profesionales, cotidianos y hasta pseudocientíficos.
                 </p>
-                <p className="text-lavender/50 leading-relaxed mb-6 text-sm">
-                  Una reflexión sobre modelos alternativos de hacer ciencia en el contexto mexicano. Este ensayo propone repensar la relación entre ciencia, sociedad y política pública desde una perspectiva crítica y transformadora.
+                <p>
+                  Si tan solo la ciencia nos dejara tomar prestada la manera de pensar que la filosofía ha conservado, nuestra realidad sería otra. Por ejemplo, la falacia ecológica nos dice que todos los miembros de un grupo muestran las mismas características del grupo. Esto lo vemos todo el tiempo: cuando nos recetan un medicamento dejamos que las oficinas de la industria farmacéutica decidan qué dosis debemos tomar, en lugar de dejar que una persona profesional de la salud las determine.
                 </p>
-                <a
-                  href="/articulos/Reflexionando_otra_ciencia_para_Mexico.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary inline-flex self-start"
-                >
-                  <FileText size={18} />
-                  Leer artículo completo
-                </a>
               </div>
+            </div>
+
+            {/* Pull quote 1 — magazine style */}
+            <div className="relative my-12 py-8">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-vivid/5 via-magenta/5 to-purple-vivid/5 rounded-2xl" />
+              <div className="relative px-8 md:px-12">
+                <Quote size={40} className="text-fuchsia/20 mb-3" />
+                <p className="text-xl md:text-2xl font-light text-white/90 leading-relaxed italic">
+                  &ldquo;Los medicamentos no son los que tienen dosis, somos las personas quienes las tenemos.&rdquo;
+                </p>
+                <div className="mt-4 h-0.5 w-16 bg-gradient-to-r from-fuchsia to-magenta rounded-full" />
+              </div>
+            </div>
+
+            {/* Section 2 */}
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-5 flex items-center gap-3">
+                <Bookmark size={20} className="text-fuchsia" />
+                El meridiano científico
+              </h3>
+              <div className="space-y-4 text-lavender/65 leading-relaxed">
+                <p>
+                  A la ciencia se le muestra desprendida de los eventos mundiales, aislada y estudiosa. Pero lo cierto es que siempre ha estado sujeta a los acontecimientos sociopolíticos globales. Desde tiempos antiguos, quien controle el meridiano cero controlará el discurso hegemónico, y mientras sigamos apreciándolo de esa manera, seguiremos esperando que desde fuera nos digan de dónde debemos partir para contar nuestra historia.
+                </p>
+                <p>
+                  En México se nos enseña que las ciencias duras deben ser apolíticas. Isabelle Stengers argumenta que la forma en que se practica la ciencia actual es una forma de aceleración, en la que el objetivo principal es publicar cada vez más resultados y obtener cada vez más financiamiento, lo que ha llevado a la exclusión de perspectivas y enfoques que no se ajustan a esta idea de la ciencia.
+                </p>
+              </div>
+            </div>
+
+            {/* Pull quote 2 */}
+            <div className="relative my-12 py-8">
+              <div className="absolute inset-0 bg-gradient-to-r from-magenta/5 via-purple-vivid/5 to-fuchsia/5 rounded-2xl" />
+              <div className="relative px-8 md:px-12">
+                <Quote size={40} className="text-purple-vivid/20 mb-3" />
+                <p className="text-xl md:text-2xl font-light text-white/90 leading-relaxed italic">
+                  &ldquo;Si no hacemos política con y desde la ciencia, estamos dejando que otras personas tomen las decisiones por nosotros.&rdquo;
+                </p>
+                <div className="mt-4 h-0.5 w-16 bg-gradient-to-r from-purple-vivid to-fuchsia rounded-full" />
+              </div>
+            </div>
+
+            {/* Section 3 */}
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-5 flex items-center gap-3">
+                <Bookmark size={20} className="text-fuchsia" />
+                La ciencia carroñera
+              </h3>
+              <div className="space-y-4 text-lavender/65 leading-relaxed">
+                <p>
+                  Durante la estancia doctoral del autor en el Instituto Politécnico Nacional, una traducción literaria de un concepto científico fue rechazada, poniendo en evidencia la herencia positivista en la ciencia que se practica en México. Karl Popper argumentó que la ciencia es un método de conocimiento superior a otros métodos, incluyendo la literatura y la filosofía especulativa. Pero la literatura y otras formas de arte pueden proporcionar una comprensión más profunda de la realidad humana y del mundo natural.
+                </p>
+                <p>
+                  ¿Por qué seguimos haciendo ciencia en inglés? Para comienzos del siglo XX, la ciencia se escribía en alemán, francés e inglés. Hoy el inglés ocupa hasta el 90% del total de publicaciones. Son 17 años los que tarda en trasladarse la información del laboratorio a los libros de texto en países angloparlantes. En México, ese retraso era de 23 años.
+                </p>
+              </div>
+            </div>
+
+            {/* Pull quote 3 */}
+            <div className="relative my-12 py-8">
+              <div className="absolute inset-0 bg-gradient-to-r from-fuchsia/5 via-magenta/8 to-purple-vivid/5 rounded-2xl" />
+              <div className="relative px-8 md:px-12">
+                <Quote size={40} className="text-magenta/20 mb-3" />
+                <p className="text-xl md:text-2xl font-light text-white/90 leading-relaxed italic">
+                  &ldquo;La ciencia no proporciona toda la información necesaria para tomar la mejor decisión. Confiar exclusivamente en la ciencia puede producir percepciones alteradas de la realidad.&rdquo;
+                </p>
+                <div className="mt-4 h-0.5 w-16 bg-gradient-to-r from-magenta to-pink-intense rounded-full" />
+              </div>
+            </div>
+
+            {/* Section 4 */}
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-5 flex items-center gap-3">
+                <Bookmark size={20} className="text-fuchsia" />
+                La alternativa infernal y qué hacer
+              </h3>
+              <div className="space-y-4 text-lavender/65 leading-relaxed">
+                <p>
+                  Isabelle Stengers llama &ldquo;la alternativa infernal&rdquo; a la situación en la que creemos que solo tenemos dos opciones para resolver un problema. La búsqueda del progreso a cualquier costo puede llevar a consecuencias indeseables y a una pérdida de control sobre nuestro propio destino. En cambio, debemos estar dispuestos a explorar nuevas posibilidades y considerar perspectivas alternativas que nos permitan construir un futuro más sostenible, justo y equitativo.
+                </p>
+                <p>
+                  Es fundamental que, como país, nos autoapreciemos y tengamos el valor suficiente para creer en nuestra propia creatividad y habilidades. Debemos tener la confianza de inventar conceptos, diseñar fármacos y redefinir teorías científicas. Tenemos la infraestructura y las posibilidades de contar nuestra historia desde nuestro lugar.
+                </p>
+              </div>
+            </div>
+
+            {/* Final pull quote — large */}
+            <div className="relative my-14 py-10">
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-vivid/8 via-magenta/10 to-fuchsia/8 rounded-3xl border border-white/[0.06]" />
+              <div className="relative px-8 md:px-14 text-center">
+                <Quote size={48} className="text-fuchsia/15 mx-auto mb-4" />
+                <p className="text-2xl md:text-3xl font-light text-white leading-snug italic max-w-2xl mx-auto">
+                  &ldquo;Utilicemos la pluma de la literatura como aliada para tejer ciencia con hilos de la imaginación y observación.&rdquo;
+                </p>
+                <p className="text-sm text-fuchsia/50 mt-5 font-medium">— Andrés Portilla Martínez, 2024</p>
+                <div className="mt-5 h-0.5 w-20 bg-gradient-to-r from-fuchsia to-magenta rounded-full mx-auto" />
+              </div>
+            </div>
+
+            {/* Download CTA */}
+            <div className="text-center pt-4">
+              <a
+                href="/articulos/Reflexionando_otra_ciencia_para_Mexico.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary inline-flex"
+              >
+                <FileText size={18} />
+                Leer el artículo completo en PDF
+              </a>
             </div>
           </div>
         </div>
 
         {/* Featured content grid */}
-        <div className="mb-20">
+        <div className="mb-24">
           <h3 className="text-xl font-bold text-white mb-8 text-center">Contenido destacado</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-4xl mx-auto">
             {featured.map((f) => (
@@ -263,10 +405,10 @@ export default function Divulgacion() {
           </div>
         </div>
 
-        {/* Quotes carousel */}
+        {/* Quotes */}
         <div className="mb-16 max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {quotes.map((q, i) => (
+            {rrdQuotes.map((q, i) => (
               <div key={i} className="glass-card p-7 relative">
                 <Quote size={28} className="text-purple-vivid/20 absolute top-4 right-4" />
                 <p className="text-lavender/70 italic leading-relaxed text-sm mb-4">

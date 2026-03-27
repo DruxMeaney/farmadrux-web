@@ -11,7 +11,6 @@ const links = [
   { href: "/publicaciones", label: "Publicaciones" },
   { href: "/videos", label: "Videos" },
   { href: "/podcast", label: "Podcast" },
-  { href: "/curriculum", label: "Curriculum" },
   { href: "/contacto", label: "Contacto" },
 ];
 

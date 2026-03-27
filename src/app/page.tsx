@@ -51,7 +51,7 @@ const sections = [
     gradient: "from-purple-vivid to-fuchsia",
   },
   {
-    href: "/curriculum",
+    href: "/sobre-mi#curriculum",
     icon: Code2,
     title: "Curriculum Vitae",
     desc: "Trayectoria académica, experiencia profesional, publicaciones, conferencias y habilidades.",
