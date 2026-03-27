@@ -41,7 +41,14 @@
       "WebSearch",
       "Bash(vercel ls:*)",
       "Bash(pdftotext \"/Users/drux/Documents/Drux/webFarmadrux/articulos/Reflexionando_otra_ciencia_para_Mexico.pdf\" -)",
-      "Bash(México\" with magazine-style pull quotes from the article text:*)"
+      "Bash(México\" with magazine-style pull quotes from the article text:*)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Bash(pdftotext '/Users/drux/Documents/Drux/webFarmadrux/webapp/public/articulos/Catechin Opioid Receptor \\(2020\\).pdf' -)",
+      "Read(//Users/drux/Documents/Drux/webFarmadrux/webapp/**)",
+      "Bash(pdftotext '/Users/drux/Documents/Drux/webFarmadrux/webapp/public/articulos/Epi PXR ligand_ Hyperion \\(2020\\).pdf' -)",
+      "Bash(pdftotext '/Users/drux/Documents/Drux/webFarmadrux/webapp/public/articulos/GPCR_review \\(2019\\).pdf' -)",
+      "Bash(pdftotext '/Users/drux/Documents/Drux/webFarmadrux/webapp/public/articulos/SARS-CoV2 ocularsurface \\(2021\\).pdf' -)"
     ]
   }
 }
