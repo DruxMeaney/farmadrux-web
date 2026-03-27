@@ -80,7 +80,7 @@ export default function ReduccionRiesgos() {
 
         {/* Resources teaser */}
         <div className="mt-16 text-center">
-          <a href="#recursos" className="btn-primary">
+          <a href="/recursos" className="btn-primary">
             <BookOpen size={18} />
             Explorar recursos educativos
           </a>

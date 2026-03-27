@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Heart } from "lucide-react";
 
 export default function Footer() {
@@ -7,12 +8,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
+            <Link href="/" className="flex items-center gap-2 mb-4 group">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-vivid to-magenta flex items-center justify-center text-white font-bold text-sm">
                 Fx
               </div>
-              <span className="text-lg font-bold text-white">FARMADRUX</span>
-            </div>
+              <span className="text-lg font-bold text-white group-hover:text-fuchsia transition-colors">FARMADRUX</span>
+            </Link>
             <p className="text-sm text-lavender/50 leading-relaxed max-w-xs">
               Farmacología, ciencia y reducción de riesgos con mirada humana. Un proyecto de Andrés Portilla Martínez.
             </p>
@@ -23,18 +24,18 @@ export default function Footer() {
             <h4 className="text-sm font-semibold text-white mb-4 uppercase tracking-wider">Navegación</h4>
             <div className="grid grid-cols-2 gap-2">
               {[
-                { href: "#sobre-mi", label: "Sobre mí" },
-                { href: "#reduccion", label: "Reducción de riesgos" },
-                { href: "#divulgacion", label: "Divulgación" },
-                { href: "#publicaciones", label: "Publicaciones" },
-                { href: "#videos", label: "Videos" },
-                { href: "#podcast", label: "Podcast" },
-                { href: "#tecnologia", label: "Tecnología" },
-                { href: "#contacto", label: "Contacto" },
+                { href: "/sobre-mi", label: "Sobre mí" },
+                { href: "/reduccion-de-riesgos", label: "Reducción de riesgos" },
+                { href: "/divulgacion", label: "Divulgación" },
+                { href: "/publicaciones", label: "Publicaciones" },
+                { href: "/videos", label: "Videos" },
+                { href: "/podcast", label: "Podcast" },
+                { href: "/tecnologia", label: "Tecnología" },
+                { href: "/contacto", label: "Contacto" },
               ].map((l) => (
-                <a key={l.href} href={l.href} className="text-sm text-lavender/40 hover:text-fuchsia transition-colors">
+                <Link key={l.href} href={l.href} className="text-sm text-lavender/40 hover:text-fuchsia transition-colors">
                   {l.label}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -48,17 +49,27 @@ export default function Footer() {
                 { label: "YouTube", href: "https://www.youtube.com/@farmadrux" },
                 { label: "Disociadxs", href: "https://youtube.com/@disociadxs" },
                 { label: "TikTok", href: "https://tiktok.com/@farmadrux" },
-                { label: "Spotify", href: "#podcast" },
+                { label: "Spotify", href: "/podcast" },
               ].map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-lavender/40 hover:text-fuchsia transition-colors"
-                >
-                  {s.label}
-                </a>
+                s.href.startsWith("http") ? (
+                  <a
+                    key={s.label}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-lavender/40 hover:text-fuchsia transition-colors"
+                  >
+                    {s.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={s.label}
+                    href={s.href}
+                    className="text-sm text-lavender/40 hover:text-fuchsia transition-colors"
+                  >
+                    {s.label}
+                  </Link>
+                )
               ))}
             </div>
           </div>

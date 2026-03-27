@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ArrowDown, BookOpen, Play, Headphones, Users } from "lucide-react";
 
 export default function Hero() {
@@ -46,26 +47,26 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
-          <a href="#sobre-mi" className="btn-primary">
+          <Link href="/sobre-mi" className="btn-primary">
             <Users size={18} />
             Conoce mi trabajo
-          </a>
-          <a href="#publicaciones" className="btn-secondary">
+          </Link>
+          <Link href="/publicaciones" className="btn-secondary">
             <BookOpen size={18} />
             Publicaciones
-          </a>
-          <a href="#videos" className="btn-secondary">
+          </Link>
+          <Link href="/videos" className="btn-secondary">
             <Play size={18} />
             Videos
-          </a>
-          <a href="#podcast" className="btn-secondary">
+          </Link>
+          <Link href="/podcast" className="btn-secondary">
             <Headphones size={18} />
             Podcast
-          </a>
+          </Link>
         </div>
 
         {/* Scroll indicator */}
-        <a href="#sobre-mi" className="inline-flex flex-col items-center gap-2 text-lavender/30 hover:text-lavender/60 transition-colors">
+        <a href="#explorar" className="inline-flex flex-col items-center gap-2 text-lavender/30 hover:text-lavender/60 transition-colors">
           <span className="text-xs uppercase tracking-widest">Explorar</span>
           <ArrowDown size={18} className="animate-bounce" />
         </a>
