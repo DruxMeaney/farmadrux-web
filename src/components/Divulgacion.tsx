@@ -149,8 +149,10 @@ const rrdQuotes = [
 /* ─── COMPONENT ─── */
 export default function Divulgacion() {
   return (
-    <section className="relative gradient-section py-24 md:py-36">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative gradient-section py-24 md:py-36 overflow-hidden">
+      <div className="sparkle-field" aria-hidden="true" />
+      <div className="glow-dots" aria-hidden="true" />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeader
           tag="Divulgación científica"
           title="Ciencia rigurosa, ||comunicación accesible||"

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import SectionHeader from "./SectionHeader";
+import Link from "next/link";
 import {
   FlaskConical,
   Megaphone,
@@ -11,6 +12,8 @@ import {
   Code2,
   Microscope,
   GraduationCap,
+  Rocket,
+  ExternalLink,
 } from "lucide-react";
 
 const facets = [
@@ -58,8 +61,10 @@ const facets = [
 
 export default function SobreMi() {
   return (
-    <section id="sobre-mi" className="relative gradient-section py-24 md:py-36">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="sobre-mi" className="relative gradient-section py-24 md:py-36 overflow-hidden">
+      <div className="sparkle-field" aria-hidden="true" />
+      <div className="glow-dots" aria-hidden="true" />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeader
           tag="Quién soy"
           title="Donde convergen ||ciencia, salud y compromiso social||"
@@ -96,6 +101,38 @@ export default function SobreMi() {
                 <p>
                   <span className="text-fuchsia font-medium">Farmadrux</span> es el espacio donde todo converge: farmacología, ciencia, activismo, comunicación, tecnología, sensibilidad humana y pensamiento crítico.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ── Sustanciario CTA ── */}
+        <div className="mb-16 max-w-4xl mx-auto">
+          <div className="relative glass-card p-0 overflow-hidden border-magenta/20 group">
+            {/* Background shimmer */}
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-vivid/10 via-magenta/15 to-fuchsia/10 opacity-60" />
+            <div className="absolute inset-0 sparkle-field" aria-hidden="true" />
+            <div className="relative p-8 md:p-10 flex flex-col md:flex-row items-center gap-6 md:gap-10">
+              <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-vivid to-magenta flex items-center justify-center flex-shrink-0 shadow-xl shadow-magenta/30">
+                <Rocket size={36} className="text-white" />
+              </div>
+              <div className="flex-1 text-center md:text-left">
+                <span className="tag text-xs mb-3 inline-block">Proyecto propio</span>
+                <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
+                  Soy creador de <span className="text-gradient">El Sustanciario</span>
+                </h3>
+                <p className="text-lavender/60 leading-relaxed mb-5 max-w-xl">
+                  Una webapp interactiva con información basada en evidencia sobre sustancias psicoactivas. Consulta perfiles farmacológicos, interacciones, mecanismos de acción y estrategias de reducción de riesgos, todo en un solo lugar.
+                </p>
+                <a
+                  href="https://sustanciario.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary inline-flex text-lg px-8 py-4 group-hover:shadow-[0_0_50px_rgba(192,38,211,0.4)]"
+                >
+                  <ExternalLink size={20} />
+                  Explorar El Sustanciario
+                </a>
               </div>
             </div>
           </div>
