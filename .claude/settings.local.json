@@ -34,7 +34,11 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://farmadrux.vercel.app)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://webapp-bay-theta.vercel.app)",
       "Bash(find /Users/drux/Documents/Drux/webFarmadrux -maxdepth 2 -name *CV* -o -name *curriculum* -o -name *Portilla*)",
-      "Bash(pdftotext /Users/drux/Documents/Drux/webFarmadrux/webapp/CV_AndresPortillaMartinez.pdf -)"
+      "Bash(pdftotext /Users/drux/Documents/Drux/webFarmadrux/webapp/CV_AndresPortillaMartinez.pdf -)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://farmadrux.vercel.app/curriculum)",
+      "Bash(vercel rm:*)",
+      "Bash(vercel --prod --yes --no-wait)",
+      "WebSearch"
     ]
   }
 }

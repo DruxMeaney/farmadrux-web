@@ -25,7 +25,6 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-2">
               {[
                 { href: "/sobre-mi", label: "Sobre mí" },
-                { href: "/reduccion-de-riesgos", label: "Reducción de riesgos" },
                 { href: "/divulgacion", label: "Divulgación" },
                 { href: "/publicaciones", label: "Publicaciones" },
                 { href: "/videos", label: "Videos" },

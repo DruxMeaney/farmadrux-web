@@ -1,8 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import {
   Users,
-  Shield,
   FlaskConical,
   FileText,
   Play,
@@ -11,6 +11,7 @@ import {
   Download,
   Share2,
   Mail,
+  Sparkles,
 } from "lucide-react";
 
 const sections = [
@@ -22,17 +23,10 @@ const sections = [
     gradient: "from-purple-vivid to-fuchsia",
   },
   {
-    href: "/reduccion-de-riesgos",
-    icon: Shield,
-    title: "Reducción de riesgos y daños",
-    desc: "Salud pública con dignidad y evidencia. Principios, recursos y acompañamiento sin estigma.",
-    gradient: "from-magenta to-pink-intense",
-  },
-  {
     href: "/divulgacion",
     icon: FlaskConical,
-    title: "Divulgación científica",
-    desc: "Farmacología, sistema endocannabinoide, sustancias psicoactivas y neurociencia explicados con rigor.",
+    title: "Divulgación y reducción de riesgos",
+    desc: "Farmacología, sustancias psicoactivas, reducción de riesgos y daños, y neurociencia. Ciencia con dignidad y evidencia.",
     gradient: "from-fuchsia to-neon-pink",
   },
   {
@@ -126,6 +120,49 @@ export default function Home() {
                 </p>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Closing visual with image ── */}
+      <section className="relative gradient-contact py-20 md:py-32 overflow-hidden">
+        <div className="orb w-[400px] h-[400px] bg-purple-vivid/12 top-[-100px] right-[-100px]" />
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="glass-card p-0 overflow-hidden">
+            <div className="flex flex-col md:flex-row items-stretch">
+              {/* Image */}
+              <div className="relative w-full md:w-1/2 h-72 md:h-auto min-h-[320px]">
+                <Image
+                  src="/drux-rrd.jpg"
+                  alt="Andrés Portilla Martínez — Farmadrux"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#060212]/70 hidden md:block" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#060212]/80 to-transparent md:hidden" />
+              </div>
+              {/* Text */}
+              <div className="p-8 md:p-12 flex flex-col justify-center flex-1">
+                <div className="flex items-center gap-2 mb-4">
+                  <Sparkles size={20} className="text-fuchsia" />
+                  <span className="text-sm text-fuchsia/70 font-medium">La ciencia como puente</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-bold text-white mb-4 leading-tight">
+                  Donde la evidencia se encuentra con la <span className="text-gradient">experiencia humana</span>
+                </h3>
+                <p className="text-lavender/60 leading-relaxed mb-6">
+                  Farmadrux nace de la convicción de que la ciencia puede ser cercana, la salud puede ser digna y la conversación sobre sustancias puede existir sin estigma. Cada proyecto, cada video, cada episodio es un paso hacia una sociedad más informada y compasiva.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Link href="/sobre-mi" className="btn-primary text-sm">
+                    Conoce mi historia
+                  </Link>
+                  <Link href="/contacto" className="btn-secondary text-sm">
+                    Colaboremos
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
