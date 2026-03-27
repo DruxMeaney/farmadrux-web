@@ -1,26 +1,224 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: #0a0a0a;
+  --color-foreground: #f5f0ff;
+  --color-purple-deep: #2d1654;
+  --color-purple-mid: #4a1d8a;
+  --color-purple-vivid: #7c3aed;
+  --color-magenta: #c026d3;
+  --color-pink-intense: #db2777;
+  --color-fuchsia: #e879f9;
+  --color-lavender: #c4b5fd;
+  --color-lavender-soft: #ede9fe;
+  --color-neon-pink: #ff6ec7;
+  --color-neon-purple: #b97aff;
+  --color-glass-white: rgba(255, 255, 255, 0.06);
+  --color-glass-white-md: rgba(255, 255, 255, 0.1);
+  --color-glass-white-lg: rgba(255, 255, 255, 0.15);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ====== BASE ====== */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #060212;
+  color: #f5f0ff;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(192, 38, 211, 0.4);
+  color: #fff;
+}
+
+/* ====== SCROLLBAR ====== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0520;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7c3aed, #c026d3);
+  border-radius: 999px;
+}
+
+/* ====== GRADIENTS ====== */
+.gradient-hero {
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(124, 58, 237, 0.35) 0%, rgba(192, 38, 211, 0.15) 40%, transparent 70%),
+              radial-gradient(ellipse 60% 50% at 80% 20%, rgba(219, 39, 119, 0.2) 0%, transparent 60%),
+              #060212;
+}
+
+.gradient-section-alt {
+  background: radial-gradient(ellipse 70% 50% at 20% 50%, rgba(124, 58, 237, 0.12) 0%, transparent 60%),
+              radial-gradient(ellipse 50% 40% at 80% 50%, rgba(192, 38, 211, 0.08) 0%, transparent 60%),
+              #070215;
+}
+
+.gradient-section {
+  background: #060212;
+}
+
+.gradient-contact {
+  background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(124, 58, 237, 0.3) 0%, rgba(192, 38, 211, 0.1) 40%, transparent 70%),
+              #060212;
+}
+
+/* ====== GLASS CARD ====== */
+.glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border-radius: 1.25rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(192, 38, 211, 0.3);
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.1), 0 0 80px rgba(192, 38, 211, 0.05);
+  transform: translateY(-2px);
+}
+
+/* ====== GLOW EFFECTS ====== */
+.glow-text {
+  text-shadow: 0 0 40px rgba(124, 58, 237, 0.4), 0 0 80px rgba(192, 38, 211, 0.2);
+}
+
+.glow-line {
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #7c3aed, #c026d3, #db2777, transparent);
+  border-radius: 999px;
+}
+
+.glow-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c026d3;
+  box-shadow: 0 0 12px #c026d3, 0 0 24px rgba(192, 38, 211, 0.4);
+}
+
+/* ====== GRADIENT TEXT ====== */
+.text-gradient {
+  background: linear-gradient(135deg, #c4b5fd 0%, #e879f9 30%, #db2777 60%, #c026d3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-vivid {
+  background: linear-gradient(135deg, #7c3aed 0%, #c026d3 50%, #db2777 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ====== BUTTONS ====== */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(135deg, #7c3aed, #c026d3);
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.4), 0 0 60px rgba(192, 38, 211, 0.2);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  background: transparent;
+  color: #e879f9;
+  border: 1px solid rgba(232, 121, 249, 0.3);
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  border-color: rgba(232, 121, 249, 0.6);
+  background: rgba(232, 121, 249, 0.08);
+  box-shadow: 0 0 20px rgba(232, 121, 249, 0.15);
+}
+
+/* ====== TAG / BADGE ====== */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.9rem;
+  background: rgba(124, 58, 237, 0.15);
+  border: 1px solid rgba(124, 58, 237, 0.25);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #c4b5fd;
+  transition: all 0.3s;
+}
+.tag:hover {
+  background: rgba(124, 58, 237, 0.25);
+  border-color: rgba(124, 58, 237, 0.4);
+}
+
+/* ====== SECTION DIVIDER ====== */
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(124, 58, 237, 0.3), rgba(192, 38, 211, 0.3), transparent);
+}
+
+/* ====== ANIMATIONS ====== */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+/* ====== ORB DECORATIONS ====== */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
 }
