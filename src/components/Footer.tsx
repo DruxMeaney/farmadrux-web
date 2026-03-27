@@ -30,7 +30,7 @@ export default function Footer() {
                 { href: "/publicaciones", label: "Publicaciones" },
                 { href: "/videos", label: "Videos" },
                 { href: "/podcast", label: "Podcast" },
-                { href: "/tecnologia", label: "Tecnología" },
+                { href: "/curriculum", label: "Curriculum" },
                 { href: "/contacto", label: "Contacto" },
               ].map((l) => (
                 <Link key={l.href} href={l.href} className="text-sm text-lavender/40 hover:text-fuchsia transition-colors">

@@ -57,10 +57,10 @@ const sections = [
     gradient: "from-purple-vivid to-fuchsia",
   },
   {
-    href: "/tecnologia",
+    href: "/curriculum",
     icon: Code2,
-    title: "Ciencia y tecnología",
-    desc: "Programación, ciencia de datos, bioinformática e inteligencia artificial aplicadas a salud.",
+    title: "Curriculum Vitae",
+    desc: "Trayectoria académica, experiencia profesional, publicaciones, conferencias y habilidades.",
     gradient: "from-blue-500 to-purple-vivid",
   },
   {
