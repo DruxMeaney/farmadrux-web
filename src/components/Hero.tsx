@@ -39,9 +39,9 @@ export default function Hero() {
 
         {/* Tagline */}
         <p className="text-xl sm:text-2xl md:text-3xl font-light text-lavender/80 max-w-3xl mx-auto leading-snug mb-4">
-          Ciencia, salud y sustancias psicoactivas
+          Ciencia · salud · medicamentos · sustancias
           <br />
-          <span className="text-gradient-vivid font-medium">sin estigma.</span>
+          <span className="text-gradient-vivid font-medium">evidencia sin estigma.</span>
         </p>
 
         {/* Subtitle */}
