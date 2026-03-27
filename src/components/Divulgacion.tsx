@@ -43,9 +43,9 @@ const topics = [
     color: "from-pink-intense to-magenta",
   },
   {
-    icon: Brain,
-    title: "Neurociencia y conducta",
-    desc: "Cómo funcionan los neurotransmisores, los receptores y los circuitos cerebrales implicados en el placer, el dolor y la adicción.",
+    icon: Dna,
+    title: "Proteómica y genómica",
+    desc: "El estudio de proteínas y genomas como herramientas para entender enfermedades, diseñar fármacos y avanzar hacia una medicina de precisión personalizada.",
     color: "from-fuchsia to-neon-pink",
   },
   {

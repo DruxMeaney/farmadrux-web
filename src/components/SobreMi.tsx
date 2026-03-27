@@ -68,7 +68,7 @@ export default function SobreMi() {
         <SectionHeader
           tag="Quién soy"
           title="Donde convergen ||ciencia, salud y compromiso social||"
-          subtitle="Soy Andrés Portilla Martínez. Mi trabajo articula farmacología, divulgación científica, reducción de riesgos y daños, derechos humanos y tecnología."
+          subtitle="Soy Andrés Portilla Martínez. Farmacéutico, farmacólogo y doctor en investigación en medicina, con especialidad en endocannabinología por la UNAM. Mi trabajo articula farmacología, divulgación científica, reducción de riesgos y daños, derechos humanos y tecnología."
         />
 
         {/* ── Photo + Narrative side by side ── */}
@@ -90,7 +90,7 @@ export default function SobreMi() {
             <div className="p-8 md:p-10 flex-1">
               <div className="space-y-5 text-lavender/70 leading-relaxed text-base">
                 <p>
-                  Soy farmacéutico de formación, divulgador por vocación y activista por convicción. A lo largo de mi trayectoria he trabajado en la intersección entre la ciencia, la salud comunitaria y la comunicación pública, con un enfoque particular en sustancias psicoactivas, farmacología y reducción de riesgos y daños.
+                  Soy farmacéutico, farmacólogo y doctor en investigación en medicina por el Instituto Politécnico Nacional, con especialidad en endocannabinología por la UNAM. A lo largo de mi trayectoria he trabajado en la intersección entre la ciencia, la salud comunitaria y la comunicación pública, con un enfoque particular en sustancias psicoactivas, farmacología y reducción de riesgos y daños.
                 </p>
                 <p>
                   Mi trabajo no se limita a explicar ciencia: busco transformar la conversación pública sobre drogas, salud y autonomía corporal. Creo que la información basada en evidencia, libre de estigma y centrada en derechos humanos puede salvar vidas, cambiar narrativas y construir comunidades más informadas y compasivas.

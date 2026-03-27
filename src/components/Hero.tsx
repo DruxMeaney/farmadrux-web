@@ -46,7 +46,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="text-base sm:text-lg text-lavender/50 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Andrés Portilla Martínez — Farmacéutico, divulgador científico y activista en reducción de riesgos y daños. Endocannabinólogo certificado por la UNAM.
+          Andrés Portilla Martínez — Farmacéutico, farmacólogo, doctor en investigación en medicina y especialista en endocannabinología por la UNAM. Divulgador científico y activista en reducción de riesgos y daños.
         </p>
 
         {/* CTA Buttons */}
