@@ -150,10 +150,6 @@ export default function Curriculum() {
         {/* ── HEADER CARD WITH PHOTO + DOWNLOAD ── */}
         <div className="glass-card p-8 md:p-10 mb-16 max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="relative w-36 h-36 rounded-2xl overflow-hidden border-2 border-white/[0.08] flex-shrink-0 shadow-xl shadow-purple-vivid/10">
-              <Image src="/drux-portrait.jpg" alt="Dr. Andrés Portilla Martínez" fill className="object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#060212]/40 via-transparent to-transparent" />
-            </div>
             <div className="flex-1 text-center md:text-left">
               <h3 className="text-2xl font-bold text-white mb-2">Dr. Andrés Portilla Martínez</h3>
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 mb-4 text-sm text-lavender/50">
