@@ -5,44 +5,116 @@ import { FileText, ExternalLink, Calendar, BookMarked } from "lucide-react";
 
 const publications = [
   {
-    title: "Evaluación de compuestos cannabinoides en modelos de inflamación in vitro",
-    journal: "Revista Mexicana de Ciencias Farmacéuticas",
-    year: "2024",
+    title: "In silico evaluation of flavonoids as potential inhibitors of SARS-CoV-2 main nonstructural proteins (Nsps) — amentoflavone as a multitarget candidate",
+    journal: "Journal of Molecular Modeling",
+    year: "2022",
     type: "Artículo de investigación",
-    doi: "#",
-    desc: "Estudio sobre la actividad antiinflamatoria de cannabinoides en líneas celulares, con análisis de citoquinas y mecanismos moleculares.",
+    file: "/articulos/In silico Ament_SARS CoV2 JournalModeling (2022).pdf",
+    desc: "Evaluación computacional mediante docking y dinámica molecular de flavonoides como potenciales inhibidores de proteínas no estructurales del SARS-CoV-2.",
   },
   {
-    title: "Reducción de riesgos y daños en festivales: una revisión de estrategias comunitarias",
-    journal: "Salud Pública de México",
+    title: "(-)-Epicatechin Is a Biased Ligand of Apelin Receptor",
+    journal: "Journal of Molecular Modeling",
+    year: "2022",
+    type: "Artículo de investigación",
+    file: "/articulos/Epi Apelin ligand_ JournalMolecular(2022).pdf",
+    desc: "Análisis de (-)-epicatequina como ligando sesgado del receptor de apelina mediante modelado molecular y simulaciones in silico.",
+  },
+  {
+    title: "(-)-Epicatechin Inhibits Metastatic-Associated Proliferation, Migration, and Invasion of Murine Breast Cancer Cells In Vitro",
+    journal: "Publicación científica",
+    year: "2022",
+    type: "Artículo de investigación",
+    file: "/articulos/EpiInhibitsCancer.pdf",
+    desc: "Evaluación de los efectos antiproliferativos y antimetastásicos de (-)-epicatequina en células de cáncer de mama murino in vitro.",
+  },
+  {
+    title: "Reverse Screening of Boronic Acid Derivatives: Analysis of Potential Antiproliferative Effects on a Triple-Negative Breast Cancer Model In Vitro",
+    journal: "Inorganics (MDPI)",
     year: "2023",
+    type: "Artículo de investigación",
+    file: "/articulos/inorganics-11-00165.pdf",
+    desc: "Screening reverso de derivados de ácido borónico y análisis de sus efectos antiproliferativos en un modelo de cáncer de mama triple negativo.",
+  },
+  {
+    title: "Beneficial Effects of Flavonoids on Skeletal Muscle Health: A Systematic Review and Meta-Analysis",
+    journal: "Revista científica internacional",
+    year: "2021",
+    type: "Revisión sistemática",
+    file: "/articulos/Flavo on Muscle SistReview (2021).pdf",
+    desc: "Revisión sistemática y meta-análisis sobre los efectos benéficos de los flavonoides en la salud del músculo esquelético.",
+  },
+  {
+    title: "SARS-CoV-2 and the Ocular Surface",
+    journal: "Publicación científica",
+    year: "2021",
+    type: "Artículo de investigación",
+    file: "/articulos/SARS-CoV2 ocularsurface (2021).pdf",
+    desc: "Estudio sobre la relación entre SARS-CoV-2 y la superficie ocular como potencial vía de entrada viral.",
+  },
+  {
+    title: "Catechins modulate the activity of mu opioid receptor (μOR): An in silico approach",
+    journal: "Elsevier",
+    year: "2020",
+    type: "Artículo de investigación",
+    file: "/articulos/Catechin Opioid Receptor (2020).pdf",
+    desc: "Estudio in silico sobre la modulación de la actividad del receptor opioide mu (μOR) por catequinas.",
+  },
+  {
+    title: "PXR is a target of (-)-epicatechin in skeletal muscle",
+    journal: "Heliyon (Elsevier)",
+    year: "2020",
+    type: "Artículo de investigación",
+    file: "/articulos/Epi PXR ligand_ Hyperion (2020).pdf",
+    desc: "Identificación del receptor PXR como blanco molecular de (-)-epicatequina en músculo esquelético.",
+  },
+  {
+    title: "Defining pharmacological terms based on receptor ligand interactions",
+    journal: "Revista Latinoamericana de Química",
+    year: "2020",
     type: "Artículo de revisión",
-    doi: "#",
-    desc: "Revisión de las mejores prácticas internacionales en reducción de daños aplicada a espacios recreativos y festivos.",
+    file: "/articulos/PharmaTerms_review (2020).pdf",
+    desc: "Revisión conceptual para definir términos farmacológicos con base en las interacciones receptor-ligando.",
   },
   {
-    title: "Aplicaciones de la bioinformática en la identificación de blancos farmacológicos cannabinoides",
-    journal: "Journal of Cannabis Research",
-    year: "2023",
+    title: "G-proteins coupled receptors",
+    journal: "Revista Latinoamericana de Química",
+    year: "2019",
+    type: "Artículo de revisión",
+    file: "/articulos/GPCR_review (2019).pdf",
+    desc: "Revisión sobre receptores acoplados a proteínas G: estructura, clasificación, señalización y relevancia farmacológica.",
+  },
+  {
+    title: "Publicación en Revista Latinoamericana de Química",
+    journal: "Revista Latinoamericana de Química",
+    year: "2019",
     type: "Artículo de investigación",
-    doi: "#",
-    desc: "Uso de docking molecular y análisis computacional para identificar nuevos blancos terapéuticos del sistema endocannabinoide.",
+    file: "/articulos/RevLatinoamericana de Quimica (2019).pdf",
+    desc: "Contribución científica publicada en la Revista Latinoamericana de Química.",
   },
   {
-    title: "Automedicación informada: un marco ético y científico para la autonomía en salud",
-    journal: "Gaceta Médica de México",
-    year: "2022",
-    type: "Ensayo académico",
-    doi: "#",
-    desc: "Propuesta de un enfoque basado en evidencia para la automedicación responsable, incorporando principios de reducción de riesgos.",
+    title: "Memorias del Congreso — Revista Latinoamericana RIIPN",
+    journal: "Revista Latinoamericana RIIPN",
+    year: "2019",
+    type: "Memorias de congreso",
+    file: "/articulos/RevLatinoRIIPN_Memorias 2019.pdf",
+    desc: "Participación y publicación en las memorias del congreso de la Red Iberoamericana de Investigación de Productos Naturales.",
   },
   {
-    title: "Análisis de sustancias en contextos comunitarios: metodologías y resultados",
-    journal: "Drugs: Education, Prevention and Policy",
+    title: "Reflexionando otra ciencia para México",
+    journal: "Publicación independiente",
+    year: "2019",
+    type: "Ensayo",
+    file: "/articulos/Reflexionando_otra_ciencia_para_Mexico.pdf",
+    desc: "Reflexión sobre modelos alternativos de hacer ciencia en el contexto mexicano.",
+  },
+  {
+    title: "Phytochemical Analysis",
+    journal: "Publicación científica",
     year: "2022",
     type: "Artículo de investigación",
-    doi: "#",
-    desc: "Documentación y análisis de programas de drug checking en comunidades latinoamericanas.",
+    file: "/articulos/Phytochemical.pdf",
+    desc: "Análisis fitoquímico de compuestos bioactivos con potencial farmacológico.",
   },
 ];
 
@@ -55,12 +127,12 @@ export default function Publicaciones() {
         <SectionHeader
           tag="Publicaciones"
           title="Biblioteca ||académica y científica||"
-          subtitle="Artículos, textos y publicaciones formales. Un acervo que respalda el trabajo con evidencia y rigor."
+          subtitle="Artículos de investigación, revisiones sistemáticas y publicaciones científicas. Un acervo que respalda el trabajo con evidencia y rigor."
         />
 
         <div className="space-y-5">
-          {publications.map((pub) => (
-            <article key={pub.title} className="glass-card p-6 md:p-8 group">
+          {publications.map((pub, i) => (
+            <article key={i} className="glass-card p-6 md:p-8 group">
               <div className="flex flex-col md:flex-row md:items-start gap-5">
                 {/* Icon */}
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-vivid/20 to-magenta/20 flex items-center justify-center flex-shrink-0">
@@ -86,11 +158,13 @@ export default function Publicaciones() {
 
                 {/* Action */}
                 <a
-                  href={pub.doi}
+                  href={pub.file}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-1.5 text-sm text-fuchsia/70 hover:text-fuchsia transition-colors whitespace-nowrap flex-shrink-0"
                 >
                   <ExternalLink size={14} />
-                  Consultar
+                  Consultar PDF
                 </a>
               </div>
             </article>

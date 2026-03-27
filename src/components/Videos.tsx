@@ -1,68 +1,90 @@
 "use client";
 
+import { useState } from "react";
 import SectionHeader from "./SectionHeader";
-import { Play, Clock, Eye } from "lucide-react";
-
-const videoCategories = [
-  { label: "Recientes", active: true },
-  { label: "Farmacología", active: false },
-  { label: "Reducción de riesgos", active: false },
-  { label: "Entrevistas", active: false },
-  { label: "Educativos", active: false },
-];
+import { Play, X, ExternalLink } from "lucide-react";
 
 const videos = [
   {
-    title: "¿Qué es realmente la reducción de riesgos y daños?",
-    thumbnail: null,
-    duration: "18:24",
-    views: "45K",
-    category: "Reducción de riesgos",
-    featured: true,
+    id: "axMdaUG7c4k",
+    title: "Las plantas siempre han estado aquí",
+    date: "2026-03-03",
   },
   {
-    title: "MDMA: farmacología, efectos y lo que necesitas saber",
-    thumbnail: null,
-    duration: "22:10",
-    views: "38K",
-    category: "Farmacología",
-    featured: false,
+    id: "uyUp64Xfzwo",
+    title: "El humo siempre hará daño",
+    date: "2026-02-27",
   },
   {
-    title: "Cannabis y el sistema endocannabinoide explicado",
-    thumbnail: null,
-    duration: "15:45",
-    views: "52K",
-    category: "Educativos",
-    featured: false,
+    id: "3226Rc8Edu8",
+    title: "Todas las personas usamos sustancias. ¿O qué crees que tomas cuando consumes café?",
+    date: "2025-12-17",
   },
   {
-    title: "Entrevista: Política de drogas en América Latina",
-    thumbnail: null,
-    duration: "45:30",
-    views: "28K",
-    category: "Entrevistas",
-    featured: false,
+    id: "JdDOuvW3hHc",
+    title: "El prohibicionismo no trata de cuidar sino de castigar",
+    date: "2025-12-16",
   },
   {
-    title: "Los mitos más peligrosos sobre automedicación",
-    thumbnail: null,
-    duration: "12:33",
-    views: "31K",
-    category: "Educativos",
-    featured: false,
+    id: "8bhjrBo7F0A",
+    title: "Paro cardiopulmonar y por qué sucede — Fragmento de Disociadxs",
+    date: "2025-05-20",
   },
   {
-    title: "¿Cómo funcionan los psicodélicos en tu cerebro?",
-    thumbnail: null,
-    duration: "20:15",
-    views: "67K",
-    category: "Farmacología",
-    featured: false,
+    id: "5oBNoK1LWZM",
+    title: "Consulta a un farmacéuticx antes de medicarte",
+    date: "2024-11-11",
+  },
+  {
+    id: "abvBh8F-7jg",
+    title: "Farmacéuticos en sociedad",
+    date: "2024-11-10",
+  },
+  {
+    id: "RFTMTP2WZCM",
+    title: "Medicamentos OTC",
+    date: "2024-11-09",
+  },
+  {
+    id: "V9-2gnwj2KA",
+    title: "La automedicación",
+    date: "2024-11-06",
+  },
+  {
+    id: "SFgCJUrW1eA",
+    title: "Campañas de uso adulto para todas las sustancias",
+    date: "2024-11-05",
+  },
+  {
+    id: "8W_v70AJedo",
+    title: "¿Sabes qué es la Medicina traslacional?",
+    date: "2024-11-05",
+  },
+  {
+    id: "AIojjFOE1z0",
+    title: "Las sustancias como creadoras de cultura",
+    date: "2024-11-05",
+  },
+  {
+    id: "qxLHHxhaEa4",
+    title: "Ahora hablamos de consumos y consumos problemáticos",
+    date: "2024-10-25",
+  },
+  {
+    id: "ekr0WZNCO2M",
+    title: "Análisis que determina el daño potencial de todas las sustancias psicoactivas",
+    date: "2024-10-25",
+  },
+  {
+    id: "zSQlrmz9_IY",
+    title: "Computadoras cuánticas",
+    date: "2024-10-21",
   },
 ];
 
 export default function Videos() {
+  const [activeVideo, setActiveVideo] = useState<string | null>(null);
+
   return (
     <section id="videos" className="relative gradient-section py-24 md:py-36">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -72,56 +94,61 @@ export default function Videos() {
           subtitle="Contenido audiovisual que conecta la farmacología, la reducción de riesgos y la divulgación con una audiencia global."
         />
 
-        {/* Category filters */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
-          {videoCategories.map((c) => (
-            <button
-              key={c.label}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                c.active
-                  ? "bg-gradient-to-r from-purple-vivid to-magenta text-white shadow-lg shadow-purple-vivid/20"
-                  : "bg-white/[0.04] text-lavender/50 border border-white/[0.08] hover:text-white hover:border-white/[0.15]"
-              }`}
+        {/* Video modal */}
+        {activeVideo && (
+          <div
+            className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
+            onClick={() => setActiveVideo(null)}
+          >
+            <div
+              className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden"
+              onClick={(e) => e.stopPropagation()}
             >
-              {c.label}
-            </button>
-          ))}
-        </div>
+              <button
+                onClick={() => setActiveVideo(null)}
+                className="absolute -top-12 right-0 text-white/70 hover:text-white transition-colors z-10"
+              >
+                <X size={28} />
+              </button>
+              <iframe
+                src={`https://www.youtube.com/embed/${activeVideo}?autoplay=1`}
+                title="Video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
+          </div>
+        )}
 
         {/* Video grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {videos.map((v) => (
-            <div key={v.title} className="glass-card overflow-hidden group cursor-pointer">
-              {/* Thumbnail placeholder */}
-              <div className="relative aspect-video bg-gradient-to-br from-purple-deep to-purple-mid overflow-hidden">
+            <div
+              key={v.id}
+              className="glass-card overflow-hidden group cursor-pointer"
+              onClick={() => setActiveVideo(v.id)}
+            >
+              {/* Thumbnail from YouTube */}
+              <div className="relative aspect-video overflow-hidden">
+                <img
+                  src={`https://img.youtube.com/vi/${v.id}/hqdefault.jpg`}
+                  alt={v.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-14 h-14 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:bg-white/20 group-hover:scale-110 transition-all">
+                  <div className="w-14 h-14 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:bg-white/25 group-hover:scale-110 transition-all">
                     <Play size={24} className="text-white ml-1" />
                   </div>
                 </div>
-                {/* Duration */}
-                <div className="absolute bottom-2 right-2 px-2 py-0.5 bg-black/70 rounded text-xs text-white font-mono">
-                  {v.duration}
-                </div>
-                {v.featured && (
-                  <div className="absolute top-2 left-2 px-2 py-0.5 bg-gradient-to-r from-purple-vivid to-magenta rounded text-xs text-white font-semibold">
-                    Destacado
-                  </div>
-                )}
               </div>
               {/* Info */}
               <div className="p-5">
-                <h3 className="text-white font-semibold text-sm leading-snug mb-3 group-hover:text-fuchsia transition-colors line-clamp-2">
+                <h3 className="text-white font-semibold text-sm leading-snug mb-2 group-hover:text-fuchsia transition-colors line-clamp-2">
                   {v.title}
                 </h3>
-                <div className="flex items-center gap-3 text-xs text-lavender/40">
-                  <span className="flex items-center gap-1">
-                    <Eye size={12} /> {v.views} vistas
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <Clock size={12} /> {v.duration}
-                  </span>
-                </div>
+                <span className="text-xs text-lavender/40">{v.date}</span>
               </div>
             </div>
           ))}
@@ -130,13 +157,13 @@ export default function Videos() {
         {/* CTA */}
         <div className="mt-12 text-center">
           <a
-            href="https://youtube.com/@farmadrux"
+            href="https://www.youtube.com/@farmadrux"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-secondary"
+            className="btn-primary"
           >
-            <Play size={18} />
-            Ver canal de YouTube
+            <ExternalLink size={18} />
+            Ver canal completo en YouTube
           </a>
         </div>
       </div>

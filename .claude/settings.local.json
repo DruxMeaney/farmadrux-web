@@ -8,7 +8,26 @@
       "Bash(npm run:*)",
       "mcp__Claude_Preview__preview_start",
       "Bash(gh auth:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "Bash(npm i:*)",
+      "Bash(vercel whoami:*)",
+      "Bash(vercel link:*)",
+      "Bash(vercel --prod --yes)",
+      "Bash(find /Users/drux/Documents/Drux/webFarmadrux/webapp -maxdepth 3 -not -path */node_modules/* -not -path */.git/* -not -path */.next/* -name *.png -o -name *.jpg -o -name *.jpeg -o -name *.pdf -o -name *.PDF)",
+      "Bash(cp /Users/drux/Documents/Drux/webFarmadrux/Drux.png /Users/drux/Documents/Drux/webFarmadrux/webapp/public/drux.png)",
+      "Bash(cp /Users/drux/Documents/Drux/webFarmadrux/Disociadxs.png /Users/drux/Documents/Drux/webFarmadrux/webapp/public/disociadxs.png)",
+      "Bash(cp \"/Users/drux/Documents/Drux/webFarmadrux/ilustraciónNG.jpeg\" /Users/drux/Documents/Drux/webFarmadrux/webapp/public/ilustracion.jpeg)",
+      "Bash(cp /Users/drux/Documents/Drux/webFarmadrux/articulos/*.pdf \"/Users/drux/Documents/Drux/webFarmadrux/webapp/public/articulos/\")",
+      "Bash(brew install:*)",
+      "Bash(strings \"/Users/drux/Documents/Drux/webFarmadrux/articulos/RevLatinoamericana de Quimica \\(2019\\).pdf\")",
+      "Bash(strings \"/Users/drux/Documents/Drux/webFarmadrux/articulos/SARS-CoV2 ocularsurface \\(2021\\).pdf\")",
+      "WebFetch(domain:www.youtube.com)",
+      "Bash(git push:*)",
+      "Bash(du -sh public/articulos/*.pdf)",
+      "Bash(brew list:*)",
+      "Bash(git lfs:*)"
     ]
   }
 }

@@ -21,7 +21,7 @@ const socials = [
     name: "YouTube",
     handle: "@farmadrux",
     desc: "Videos educativos, entrevistas y series sobre ciencia y salud.",
-    href: "https://youtube.com/@farmadrux",
+    href: "https://www.youtube.com/@farmadrux",
     gradient: "from-red-500 to-red-600",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">

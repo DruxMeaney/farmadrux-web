@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import SectionHeader from "./SectionHeader";
 import {
   FlaskConical,
@@ -65,21 +66,35 @@ export default function SobreMi() {
           subtitle="Soy Andrés Portilla Martínez. Mi trabajo articula farmacología, divulgación científica, reducción de riesgos y daños, derechos humanos y tecnología."
         />
 
-        {/* Narrative */}
-        <div className="glass-card p-8 md:p-12 mb-16 max-w-4xl mx-auto">
-          <div className="space-y-5 text-lavender/70 leading-relaxed text-base md:text-lg">
-            <p>
-              Soy farmacéutico de formación, divulgador por vocación y activista por convicción. A lo largo de mi trayectoria he trabajado en la intersección entre la ciencia, la salud comunitaria y la comunicación pública, con un enfoque particular en sustancias psicoactivas, farmacología y reducción de riesgos y daños.
-            </p>
-            <p>
-              Mi trabajo no se limita a explicar ciencia: busco transformar la conversación pública sobre drogas, salud y autonomía corporal. Creo que la información basada en evidencia, libre de estigma y centrada en derechos humanos puede salvar vidas, cambiar narrativas y construir comunidades más informadas y compasivas.
-            </p>
-            <p>
-              He colaborado con organizaciones y colectivos dedicados al análisis de sustancias, la educación comunitaria y el acompañamiento en salud. Al mismo tiempo, integro herramientas de programación, ciencia de datos, bioinformática e inteligencia artificial en proyectos orientados a la salud y la investigación.
-            </p>
-            <p>
-              <span className="text-fuchsia font-medium">Farmadrux</span> es el espacio donde todo converge: farmacología, ciencia, activismo, comunicación, tecnología, sensibilidad humana y pensamiento crítico.
-            </p>
+        {/* Narrative with image */}
+        <div className="glass-card p-8 md:p-12 mb-16 max-w-5xl mx-auto">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
+            {/* Image */}
+            <div className="relative w-full md:w-64 h-72 md:h-80 rounded-2xl overflow-hidden flex-shrink-0 border border-white/[0.08]">
+              <Image
+                src="/drux.png"
+                alt="Andrés Portilla Martínez"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#060212]/50 via-transparent to-transparent" />
+            </div>
+
+            {/* Text */}
+            <div className="space-y-5 text-lavender/70 leading-relaxed text-base md:text-lg flex-1">
+              <p>
+                Soy farmacéutico de formación, divulgador por vocación y activista por convicción. A lo largo de mi trayectoria he trabajado en la intersección entre la ciencia, la salud comunitaria y la comunicación pública, con un enfoque particular en sustancias psicoactivas, farmacología y reducción de riesgos y daños.
+              </p>
+              <p>
+                Mi trabajo no se limita a explicar ciencia: busco transformar la conversación pública sobre drogas, salud y autonomía corporal. Creo que la información basada en evidencia, libre de estigma y centrada en derechos humanos puede salvar vidas, cambiar narrativas y construir comunidades más informadas y compasivas.
+              </p>
+              <p>
+                He colaborado con organizaciones y colectivos dedicados al análisis de sustancias, la educación comunitaria y el acompañamiento en salud. Al mismo tiempo, integro herramientas de programación, ciencia de datos, bioinformática e inteligencia artificial en proyectos orientados a la salud y la investigación.
+              </p>
+              <p>
+                <span className="text-fuchsia font-medium">Farmadrux</span> es el espacio donde todo converge: farmacología, ciencia, activismo, comunicación, tecnología, sensibilidad humana y pensamiento crítico.
+              </p>
+            </div>
           </div>
         </div>
 

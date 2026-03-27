@@ -45,7 +45,8 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               {[
                 { label: "Instagram", href: "https://instagram.com/farmadrux" },
-                { label: "YouTube", href: "https://youtube.com/@farmadrux" },
+                { label: "YouTube", href: "https://www.youtube.com/@farmadrux" },
+                { label: "Disociadxs", href: "https://youtube.com/@disociadxs" },
                 { label: "TikTok", href: "https://tiktok.com/@farmadrux" },
                 { label: "Spotify", href: "#podcast" },
               ].map((s) => (
