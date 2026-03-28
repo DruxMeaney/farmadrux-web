@@ -62,13 +62,6 @@ const topics = [
   },
 ];
 
-const featured = [
-  { title: "¿Qué pasa en tu cerebro cuando consumes MDMA?", type: "Artículo", tag: "Neurociencia" },
-  { title: "Cannabis medicinal: lo que dice la evidencia", type: "Infografía", tag: "Endocannabinología" },
-  { title: "Interacciones peligrosas: sustancias que no debes mezclar", type: "Guía", tag: "Reducción de riesgos" },
-  { title: "Mitos sobre la automedicación: entre el riesgo y la autonomía", type: "Artículo", tag: "Salud pública" },
-];
-
 /* ─── PULL QUOTES FROM THE ARTICLE ─── */
 const articleQuotes = [
   {
@@ -332,27 +325,6 @@ export default function Divulgacion() {
                 Leer el artículo completo en PDF
               </a>
             </div>
-          </div>
-        </div>
-
-        {/* Featured content grid */}
-        <div className="mb-24">
-          <h3 className="text-xl font-bold text-white mb-8 text-center">Contenido destacado</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-4xl mx-auto">
-            {featured.map((f) => (
-              <div key={f.title} className="glass-card p-6 flex items-start justify-between gap-4 group cursor-pointer">
-                <div>
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="tag text-xs">{f.tag}</span>
-                    <span className="text-xs text-lavender/40">{f.type}</span>
-                  </div>
-                  <h4 className="text-white font-medium leading-snug group-hover:text-fuchsia transition-colors">
-                    {f.title}
-                  </h4>
-                </div>
-                <ArrowUpRight size={18} className="text-lavender/30 group-hover:text-fuchsia transition-colors flex-shrink-0 mt-1" />
-              </div>
-            ))}
           </div>
         </div>
 

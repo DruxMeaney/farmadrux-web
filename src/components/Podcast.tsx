@@ -153,39 +153,48 @@ export default function Podcast() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           tag="Podcast"
-          title="||Disociadxs|| — Conversaciones que importan"
-          subtitle="Un podcast sobre sustancias psicoactivas, salud, política de drogas, reducción de riesgos y la complejidad humana detrás de cada sustancia."
+          title="Conversaciones ||que importan||"
+          subtitle=""
         />
 
         {/* Podcast brand card */}
-        <div className="glass-card p-8 md:p-10 mb-12 max-w-3xl mx-auto text-center">
-          <div className="w-28 h-28 rounded-2xl mx-auto mb-5 overflow-hidden shadow-lg shadow-magenta/20 border border-white/[0.08]">
-            <Image
-              src="/disociadxs.png"
-              alt="Disociadxs Podcast"
-              width={112}
-              height={112}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">Disociadxs</h3>
-          <p className="text-lavender/60 max-w-lg mx-auto mb-6 leading-relaxed">
-            Cada episodio es un puente entre la ciencia, la experiencia humana y la conversación pública. Sin moralismo, sin estigma, con evidencia.
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <a
-              href="https://youtube.com/@disociadxs"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary text-sm"
-            >
-              <Headphones size={16} />
-              Ver en YouTube
-            </a>
-            <a href="#" className="btn-secondary text-sm">
-              <ExternalLink size={16} />
-              Spotify
-            </a>
+        <div className="glass-card p-0 overflow-hidden mb-14 max-w-4xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-0">
+            {/* Cover image */}
+            <div className="w-full md:w-64 h-64 md:h-auto flex-shrink-0 relative">
+              <Image
+                src="/disociadxs.png"
+                alt="Disociadxs Podcast"
+                width={256}
+                height={256}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            {/* Info */}
+            <div className="p-8 md:p-10 flex-1 text-center md:text-left">
+              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">Disociadxs</h3>
+              <p className="text-lavender/60 max-w-lg leading-relaxed mb-3">
+                Un podcast sobre sustancias psicoactivas, salud, política de drogas, reducción de riesgos y la complejidad humana detrás de cada sustancia.
+              </p>
+              <p className="text-lavender/45 text-sm max-w-lg leading-relaxed mb-6">
+                Cada episodio es un puente entre la ciencia, la experiencia humana y la conversación pública. Sin moralismo, sin estigma, con evidencia.
+              </p>
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                <a
+                  href="https://youtube.com/@disociadxs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary text-sm"
+                >
+                  <Headphones size={16} />
+                  Ver en YouTube
+                </a>
+                <a href="#" className="btn-secondary text-sm">
+                  <ExternalLink size={16} />
+                  Spotify
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
