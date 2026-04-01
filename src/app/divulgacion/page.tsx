@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import Divulgacion from "@/components/Divulgacion";
+import ConstellationHub from "@/components/divulgacion/ConstellationHub";
 
 export const metadata: Metadata = {
-  title: "Divulgación científica — Farmadrux",
-  description: "Farmacología, sistema endocannabinoide, sustancias psicoactivas, neurociencia y salud pública explicados con rigor y claridad.",
+  title: "Constelación editorial — Farmadrux",
+  description:
+    "Divulgación, ensayo, reflexión y pensamiento crítico. Farmacología, salud, reducción de riesgos, autonomía y derechos humanos en una cartografía editorial viva.",
 };
 
 export default function DivulgacionPage() {
-  return <Divulgacion />;
+  return <ConstellationHub />;
 }

@@ -412,3 +412,34 @@ body {
     0 0 20px 4px rgba(192,38,211,0.2);
   animation: sparkle-pulse 5s ease-in-out infinite 1.5s;
 }
+
+/* ====== CONCEPT TAGS (editorial) ====== */
+.concept-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  background: rgba(124, 58, 237, 0.08);
+  border: 1px solid rgba(124, 58, 237, 0.15);
+  border-radius: 999px;
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: rgba(196, 181, 253, 0.6);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.concept-tag:hover,
+.concept-tag-active {
+  background: rgba(124, 58, 237, 0.2);
+  border-color: rgba(232, 121, 249, 0.4);
+  color: #e879f9;
+  box-shadow: 0 0 12px rgba(232, 121, 249, 0.15);
+}
+
+/* ====== SCROLLBAR HIDE ====== */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
