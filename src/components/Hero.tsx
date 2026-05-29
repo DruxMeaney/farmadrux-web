@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ArrowDown, BookOpen, Play, Headphones, Users } from "lucide-react";
+import ParticleField from "./ParticleField";
 
 export default function Hero() {
   return (
@@ -11,9 +12,8 @@ export default function Hero() {
       <div className="orb w-[500px] h-[500px] bg-magenta/15 bottom-[-150px] right-[-150px]" />
       <div className="orb w-[300px] h-[300px] bg-pink-intense/10 top-[30%] right-[10%] animate-float" />
 
-      {/* Sparkle field */}
-      <div className="sparkle-field" aria-hidden="true" />
-      <div className="glow-dots" aria-hidden="true" />
+      {/* Particle field */}
+      <ParticleField />
 
       {/* Grid pattern overlay */}
       <div
