@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowDown, BookOpen, Play, Headphones, Users } from "lucide-react";
 import ParticleField from "./ParticleField";
+import CyberpunkCity from "./CyberpunkCity";
 
 export default function Hero() {
   return (
@@ -11,6 +12,9 @@ export default function Hero() {
       <div className="orb w-[600px] h-[600px] bg-purple-vivid/20 top-[-200px] left-[-200px]" />
       <div className="orb w-[500px] h-[500px] bg-magenta/15 bottom-[-150px] right-[-150px]" />
       <div className="orb w-[300px] h-[300px] bg-pink-intense/10 top-[30%] right-[10%] animate-float" />
+
+      {/* Cyberpunk city skyline */}
+      <CyberpunkCity />
 
       {/* Particle field */}
       <ParticleField />
