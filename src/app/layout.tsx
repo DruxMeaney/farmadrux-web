@@ -18,6 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://farmadrux.com"),
   title: "Farmadrux — Farmacología, ciencia y reducción de riesgos con mirada humana",
   description:
     "Andrés Portilla Martínez · Farmacéutico, divulgador científico, activista en reducción de riesgos y daños. Ciencia, salud y sustancias psicoactivas sin estigma.",

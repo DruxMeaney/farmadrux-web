@@ -12,6 +12,7 @@ import {
   Share2,
   Mail,
   Sparkles,
+  Camera,
 } from "lucide-react";
 
 const sections = [
@@ -63,6 +64,13 @@ const sections = [
     title: "Recursos descargables",
     desc: "Guías, infografías y materiales educativos gratuitos sobre salud y reducción de riesgos.",
     gradient: "from-green-500 to-emerald-400",
+  },
+  {
+    href: "/foto",
+    icon: Camera,
+    title: "Fotografía",
+    desc: "Drux Foto: retrato editorial, bodas, oficios y documental. Otra forma de contar historias.",
+    gradient: "from-neutral-600 to-pink-intense",
   },
   {
     href: "/redes",

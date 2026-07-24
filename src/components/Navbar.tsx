@@ -11,6 +11,7 @@ const links = [
   { href: "/publicaciones", label: "Publicaciones" },
   { href: "/videos", label: "Videos" },
   { href: "/podcast", label: "Podcast" },
+  { href: "/foto", label: "Fotografía" },
   { href: "/contacto", label: "Contacto" },
 ];
 
@@ -28,6 +29,9 @@ export default function Navbar() {
   useEffect(() => {
     setOpen(false);
   }, [pathname]);
+
+  // El sub-sitio de fotografía tiene su propia navegación
+  if (pathname?.startsWith("/foto")) return null;
 
   return (
     <nav

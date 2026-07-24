@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { Sun, Moon, Palette } from "lucide-react";
 
 const themes = [
@@ -12,12 +13,16 @@ const themes = [
 export default function ThemeSwitcher() {
   const [open, setOpen] = useState(false);
   const [theme, setTheme] = useState("dark");
+  const pathname = usePathname();
 
   useEffect(() => {
     const saved = localStorage.getItem("farmadrux-theme") || "dark";
     setTheme(saved);
     document.documentElement.setAttribute("data-theme", saved);
   }, []);
+
+  // El sub-sitio de fotografía siempre es oscuro; ocultamos el selector
+  if (pathname?.startsWith("/foto")) return null;
 
   const switchTheme = (id: string) => {
     setTheme(id);

@@ -1,7 +1,15 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Heart } from "lucide-react";
 
 export default function Footer() {
+  const pathname = usePathname();
+
+  // El sub-sitio de fotografía tiene su propio pie de página
+  if (pathname?.startsWith("/foto")) return null;
+
   return (
     <footer className="relative border-t border-white/[0.06] bg-[#040110]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -29,6 +37,7 @@ export default function Footer() {
                 { href: "/publicaciones", label: "Publicaciones" },
                 { href: "/videos", label: "Videos" },
                 { href: "/podcast", label: "Podcast" },
+                { href: "/foto", label: "Fotografía" },
                 { href: "/sobre-mi#curriculum", label: "Curriculum" },
                 { href: "/contacto", label: "Contacto" },
               ].map((l) => (
