@@ -35,18 +35,18 @@ export const CATEGORIAS: { id: FotoCategoria | "todas"; label: string }[] = [
 ];
 
 export const HERO_FOTO: Foto = {
-  "src": "/foto/retrato-01.jpg",
+  "src": "/foto/exteriores-10.jpg",
   "w": 2048,
   "h": 1367,
-  "cat": "retrato",
-  "alt": "Retrato editorial con chaqueta de cuero bajo un círculo de luz rosa y blanca, cabeza inclinada",
-  "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQADBv/EACIQAAIBAwQCAwAAAAAAAAAAAAECAwAEEQUSIUEGcRMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEQMiMf/aAAwDAQACEQMRAD8AF8XWxW8abUCCI8fGpXIz+n1SOsa/Gmsb4JZJYYlXagYqu7vjvIrnLOQq5A91lMMSvznmmlRZwisakuiGptYXl2Z7QtAjjLRlPpu6qLFVBLU//9k=",
+  "cat": "exteriores",
+  "alt": "Flor rosa solitaria brillando entre la maleza oscura del campo",
+  "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAhEAACAgEDBQEAAAAAAAAAAAABAgARAwQSIRQxQVFxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDM6t8z7tQWyHwpNAfkRqNWXG0J24G2UhnYqK9/ZHJldWtWKkcWDUE1a4W2QlruEUTCNOv/2Q==",
   "camera": "Nikon Z 5",
-  "lens": "NIKKOR Z 50mm f/1.8 S",
-  "f": "f/5",
-  "shutter": "1/100s",
-  "iso": "ISO 500",
-  "focal": "50mm"
+  "lens": "NIKKOR Z 24-50mm f/4-6.3",
+  "f": "f/4.2",
+  "shutter": "1/1000s",
+  "iso": "ISO 200",
+  "focal": "27mm"
 };
 
 export const FOTOS: Foto[] = [
@@ -277,6 +277,34 @@ export const FOTOS: Foto[] = [
   {
     "src": "/foto/retrato-17.jpg",
     "w": 2048,
+    "h": 1367,
+    "cat": "retrato",
+    "alt": "Retrato en chamarra de mezclilla con tirantes, sombra proyectada sobre el círculo de luz",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQCAwUG/8QAJBAAAgIBAwQCAwAAAAAAAAAAAQIDBAAREkEFBhMhFDFRwfH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABkRAQEBAAMAAAAAAAAAAAAAAAEAEQISIf/aAAwDAQACEQMRAD8ApuWx2xapVacMXidQ8ruurP70PvjNLrtOpYuyLajDK8StHICBoNfeh4/ec13R1F7UteBkUCJN27k6/wAxSG9KqjcS/jUKm4/QHGA1yjy6mydmD49mSLcG2MQGHI/OGSuyGawXYAEgfWGHxoOl/9k=",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 85mm f/1.8 S",
+    "f": "f/3.5",
+    "shutter": "1/100s",
+    "iso": "ISO 500",
+    "focal": "85mm"
+  },
+  {
+    "src": "/foto/retrato-18.jpg",
+    "w": 1406,
+    "h": 2048,
+    "cat": "retrato",
+    "alt": "Retrato con chaqueta de cuero y estoperoles bajo círculo de luz rosa",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgMG/8QAIxAAAQQCAgAHAAAAAAAAAAAAAQIDBBEABRIhMUFRYXGB0f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABkRAQEAAwEAAAAAAAAAAAAAAAEAAgMhMf/aAAwDAQACEQMRAD8AVsQIcHTtSZKm3JclSeDajfFu+z815++O9Vt9O9GTFkBCVs3RdQFAi+qP3nEvO81J9EpAGZG7/MIW8gOFBOWSaHgMMMU1+3//2Q==",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 85mm f/1.8 S",
+    "f": "f/5",
+    "shutter": "1/100s",
+    "iso": "ISO 500",
+    "focal": "85mm"
+  },
+  {
+    "src": "/foto/retrato-19.jpg",
+    "w": 2048,
     "h": 1675,
     "cat": "retrato",
     "alt": "Beso en la cabeza durante un abrazo, retrato espontáneo con cámara al hombro",
@@ -289,7 +317,7 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/retrato-18.jpg",
+    "src": "/foto/retrato-20.jpg",
     "w": 1874,
     "h": 2048,
     "cat": "retrato",
@@ -1115,6 +1143,104 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
+    "src": "/foto/eventos-27.jpg",
+    "w": 2048,
+    "h": 1219,
+    "cat": "eventos",
+    "alt": "Público en la terraza del evento entre bancos rojos y plantas",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEBQb/xAAlEAACAQMDAgcAAAAAAAAAAAABAgMAERIEBTEhkRMiMkFRYbH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAaEQACAwEBAAAAAAAAAAAAAAAAAQMREgIh/9oADAMBAAIRAxEAPwB4t3hECQqsAlYYgsel7fl6afcjiU8FDIqgmXG69vuufjxk1kmmKIIwzDooB5PvVOnkZVkKnG1uBb1c1LftGjiHS0USbrrMvLPYfCxggdqKyF1E0OSxyuq5E2BsOaKBRaVn/9k=",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/5",
+    "shutter": "1/100s",
+    "iso": "ISO 1250",
+    "focal": "34mm"
+  },
+  {
+    "src": "/foto/eventos-28.jpg",
+    "w": 1681,
+    "h": 2048,
+    "cat": "eventos",
+    "alt": "Pareja de asistentes posando entre las plantas de la terraza",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAf/EACIQAAIBAwQCAwAAAAAAAAAAAAECEQADIQQFEkExUaGxwf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/8QAGhEAAgMBAQAAAAAAAAAAAAAAAQIAETEhcf/aAAwDAQACEQMRAD8AXF3cHZbzI9pWKgW1Alh6I9Uyu4c7TtqCiKrKyiDIE/NamsXV6C/cwOOVE9RipIAZUQ9qWJWJ8fVBRfbjchKFbJZYxbSTxn9qkoVFJVVDZExnqiim2NINXyf/2Q==",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/5.3",
+    "shutter": "1/15s",
+    "iso": "ISO 1250",
+    "focal": "37mm"
+  },
+  {
+    "src": "/foto/eventos-29.jpg",
+    "w": 1670,
+    "h": 2048,
+    "cat": "eventos",
+    "alt": "Pareja abrazada sonriendo en la terraza del evento",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCBAb/xAAjEAABBAEEAQUAAAAAAAAAAAABAgMEEQAFEiExFCJBYbHR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAD/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQAxAhH/2gAMAwEAAhEDEQA/AL07W2o8zYytoPKCbSsGvfj4yTOtkuqalNbHEqTylBApXX1WZCLIbJW5IWAoCzfaiTZx3K1eE9TsZQUVqQHDtIIAVf7gVLQ8ZPDjNajqb3kJ42BVINC6GMIESO9KCHGUlPPp6Fjo4YYXa62//9k=",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/5",
+    "shutter": "1/15s",
+    "iso": "ISO 1250",
+    "focal": "24mm"
+  },
+  {
+    "src": "/foto/eventos-30.jpg",
+    "w": 1776,
+    "h": 2048,
+    "cat": "eventos",
+    "alt": "Pareja sentada sonriendo entre las plantas del patio",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUABEDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAQFBgP/xAAkEAACAgIBAwQDAAAAAAAAAAABAgADBBESBVGREyFBUhQVU//EABcBAQEBAQAAAAAAAAAAAAAAAAIDAAH/xAAbEQACAgMBAAAAAAAAAAAAAAAAAQIREjFR0f/aAAwDAQACEQMRAD8Aj9YsOXjq1l9tjKCzc6wFHYbHeV+IfQvcLkVh3r2j71vZly9op6WtOQEpd1OlcBSw+CO8yTA493pWhWGwW4kHwYNjpJFv+Tl/ZfIicuVH87/AiGpGxXSBlZl+dcr5Nhcquhv4k3plNVqU861LPcQWI9/aIlWcj6aH9fj/AEPkxEQ0iecun//Z",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/5",
+    "shutter": "1/10s",
+    "iso": "ISO 1250",
+    "focal": "24mm"
+  },
+  {
+    "src": "/foto/eventos-31.jpg",
+    "w": 2048,
+    "h": 1367,
+    "cat": "eventos",
+    "alt": "Retrato de asistente con banderas de orgullo al fondo en la terraza",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUA/8QAJBAAAgEEAQMFAQAAAAAAAAAAAQIRAAMEEgUhQVETIjEycbH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAGREBAQADAQAAAAAAAAAAAAAAAQACESEx/9oADAMBAAIRAxEAPwBlvk21HoHQhSR71gnt/KHm5tx8lFJe2zSWDPsvx2HYeaPx+HZyAGIYatAEzAHWpBy7p5a++0FgymPERS9NjaZBi8q2dkceciAlu4QACxYr1/K1ScTe5ZncDrH1mtRRtv/Z",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/5",
+    "shutter": "1/100s",
+    "iso": "ISO 1250",
+    "focal": "29mm"
+  },
+  {
+    "src": "/foto/eventos-32.jpg",
+    "w": 2048,
+    "h": 1423,
+    "cat": "eventos",
+    "alt": "Asistentes sonrientes escuchando la charla en la terraza",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAOABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMEBQb/xAAkEAACAQQCAgEFAAAAAAAAAAABAgMABBESBSFBUSIxYXGBof/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8AixctcSJtC0huAwDCNehnPmnRclyDPhJJZevlg7Db0D7/AHWesuQe0kkOA6yDDKeg35q741SlkG3Ky3TE7KM9Z80pWTUQSxziQmaUys3e238+1FNmvmRgoaQ9Zztj690UsoFZ/9k=",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/5",
+    "shutter": "1/60s",
+    "iso": "ISO 1250",
+    "focal": "24mm"
+  },
+  {
+    "src": "/foto/eventos-33.jpg",
+    "w": 2048,
+    "h": 1367,
+    "cat": "eventos",
+    "alt": "Banderas de orgullo progresivo colgadas sobre el patio del evento",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAwT/xAAkEAACAQQBAwUBAAAAAAAAAAABAgMABBESITEyUQUGExVhcf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIfD/2gAMAwEAAhEDEQA/ANLC+Elp8lzbJKoiVu0E56c/hpRaLF9jci4t45FiViy66kc8YIrq9PYp7ceYd2oj/oDUgubhkn2XO3nPOfOaInLnMobVxBFqsogVjsEXpzRU+JXKjDEcUUqyH//Z",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/5.6",
+    "shutter": "1/25s",
+    "iso": "ISO 1250",
+    "focal": "43mm"
+  },
+  {
     "src": "/foto/exteriores-01.jpg",
     "w": 2048,
     "h": 1367,
@@ -1213,6 +1339,48 @@ export const FOTOS: Foto[] = [
     "focal": "27mm"
   },
   {
+    "src": "/foto/exteriores-08.jpg",
+    "w": 2048,
+    "h": 1367,
+    "cat": "exteriores",
+    "alt": "Flor silvestre amarilla entre cardos secos en el pastizal",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAiEAACAQMEAgMAAAAAAAAAAAABAgADETEEEkFREyEigdH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAQADAAAAAAAAAAAAAAAAAAABEWH/2gAMAwEAAhEDEQA/AE2nq0xYEKT2Jq8aVKe5MDi/N/2LtP8AIhesGXpVYrk+iBnMlOGnudyd7NcGws+YRe+oIY2W33CKhf/Z",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/4.5",
+    "shutter": "1/640s",
+    "iso": "ISO 200",
+    "focal": "27mm"
+  },
+  {
+    "src": "/foto/exteriores-09.jpg",
+    "w": 2048,
+    "h": 1367,
+    "cat": "exteriores",
+    "alt": "Cardos secos a contraluz en el campo, en tonos ocres",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAeEAACAgICAwAAAAAAAAAAAAABAgMRABIEIRNBUf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8ARg5AK7VZ+a3WNMsMkZtAAwoEdXkTi8hkBoChneZ/KwjcDVXDADr1gmtLjU9LJqH1AFVWGT5Zyz7UO8MUSv/Z",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/4.5",
+    "shutter": "1/400s",
+    "iso": "ISO 200",
+    "focal": "27mm"
+  },
+  {
+    "src": "/foto/exteriores-10.jpg",
+    "w": 2048,
+    "h": 1367,
+    "cat": "exteriores",
+    "alt": "Flor rosa solitaria brillando entre la maleza oscura del campo",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAhEAACAgEDBQEAAAAAAAAAAAABAgARAwQSIRQxQVFxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDM6t8z7tQWyHwpNAfkRqNWXG0J24G2UhnYqK9/ZHJldWtWKkcWDUE1a4W2QlruEUTCNOv/2Q==",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/4.2",
+    "shutter": "1/1000s",
+    "iso": "ISO 200",
+    "focal": "27mm"
+  },
+  {
     "src": "/foto/ciudad-01.jpg",
     "w": 2048,
     "h": 1367,
@@ -1252,6 +1420,20 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/25s",
     "iso": "ISO 800",
+    "focal": "24mm"
+  },
+  {
+    "src": "/foto/ciudad-04.jpg",
+    "w": 1367,
+    "h": 2048,
+    "cat": "ciudad",
+    "alt": "Muro de ladrillo con enredadera, carteles y calcomanías",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAQT/xAAiEAACAQQCAQUAAAAAAAAAAAABAgQAAxEhBTESEyJCcYH/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAMAwEAAhEDEQA/AIfG2bTlmkOmD7QDXfOjxUa36FxACuwWzik4ydZjwwrZ896I190s2et26Db7+R6zRrbEDaOxIJA60a12wfyiirFf/9k=",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 24-50mm f/4-6.3",
+    "f": "f/5",
+    "shutter": "1/40s",
+    "iso": "ISO 1250",
     "focal": "24mm"
   }
 ];

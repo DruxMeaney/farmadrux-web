@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       "Retrato editorial, bodas, documental de oficios y exteriores. Portafolio de Andrés Portilla Martínez.",
     type: "website",
     locale: "es_MX",
-    images: ["/foto/retrato-01.jpg"],
+    images: ["/foto/exteriores-10.jpg"],
   },
 };
 
