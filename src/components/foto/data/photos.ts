@@ -209,14 +209,14 @@ export const FOTOS: Foto[] = [
     "w": 2048,
     "h": 1363,
     "cat": "bodas",
-    "alt": "Niño en brazos en la barra de la recepción, blanco y negro",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMG/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDABEhBAUSMUFxBhMUUaH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Aro9ZpyosjM/Titrn9pHczNJJL7RWJWW5TkPHfvWfpx/jxwzKoLMzJ4xemd215R4S0asWTibnGT9UHNNqJgbchjFsUVE0zxyFVYgDpRQf/9k=",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/1.7",
-    "shutter": "1/2000s",
-    "iso": "ISO 80",
-    "focal": "24mm"
+    "alt": "Beso de los novios frente al oficiante, con ramos de flores blancas",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwb/xAAkEAACAQMEAAcAAAAAAAAAAAABAgMAERIEBSExFBUyQVFhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABgRAQEAAwAAAAAAAAAAAAAAAAABESFR/9oADAMBAAIRAxEAPwBRtqabaBPHJlKQrWHXPGI/KR1m0SomUKswFwSeciPcV0W2k+XaSO5sVF/uo27lodd4cOzIjJjkesg16LONZQZInVyGU3HdFb65RBqnX1X5+KKpsV//2Q==",
+    "camera": "Nikon Z 6",
+    "lens": "NIKKOR Z 85mm f/1.8 S",
+    "f": "f/3.2",
+    "shutter": "1/1000s",
+    "iso": "ISO 320",
+    "focal": "85mm"
   },
   {
     "src": "/foto/eventos-07.jpg",
@@ -261,18 +261,18 @@ export const FOTOS: Foto[] = [
     "focal": "43mm"
   },
   {
-    "src": "/foto/bodas-12.jpg",
+    "src": "/foto/bodas-41.jpg",
     "w": 2048,
-    "h": 1363,
+    "h": 1367,
     "cat": "bodas",
-    "alt": "Beso de los novios frente al oficiante, con ramos de flores blancas",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwb/xAAkEAACAQMEAAcAAAAAAAAAAAABAgMAERIEBSExFBUyQVFhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABgRAQEAAwAAAAAAAAAAAAAAAAABESFR/9oADAMBAAIRAxEAPwBRtqabaBPHJlKQrWHXPGI/KR1m0SomUKswFwSeciPcV0W2k+XaSO5sVF/uo27lodd4cOzIjJjkesg16LONZQZInVyGU3HdFb65RBqnX1X5+KKpsV//2Q==",
-    "camera": "Nikon Z 6",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/3.2",
-    "shutter": "1/1000s",
-    "iso": "ISO 320",
-    "focal": "85mm"
+    "alt": "Familia sonriente en la playa entre las rocas",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAfEAACAgIDAQEBAAAAAAAAAAABAgMRAAQFITESE6H/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQP/xAAZEQADAQEBAAAAAAAAAAAAAAAAAQIRIWH/2gAMAwEAAhEDEQA/AKLbSaZgUK6lzZArzO80k8SMDIpruz7V9/zrIfNuTBA4sN8kWDmdvYlXjoSsj9gE/Rsm79OR02tHELvg1Nx7bD/qrLTi/cMUl35lKqlAAV5eGZ6M/9k=",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z 28mm f/2.8",
+    "f": "f/2.8",
+    "shutter": "1/800s",
+    "iso": "ISO 50",
+    "focal": "28mm"
   },
   {
     "src": "/foto/eventos-27.jpg",
@@ -289,7 +289,7 @@ export const FOTOS: Foto[] = [
     "focal": "34mm"
   },
   {
-    "src": "/foto/bodas-15.jpg",
+    "src": "/foto/bodas-12.jpg",
     "w": 2048,
     "h": 1362,
     "cat": "bodas",
@@ -317,17 +317,17 @@ export const FOTOS: Foto[] = [
     "focal": "50mm"
   },
   {
-    "src": "/foto/bodas-10.jpg",
-    "w": 1362,
-    "h": 2048,
+    "src": "/foto/bodas-22.jpg",
+    "w": 2048,
+    "h": 1363,
     "cat": "bodas",
-    "alt": "Niñas con coronas de flores encabezando el cortejo",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EACAQAAIBBQACAwAAAAAAAAAAAAECAwAEERIhBTFhccH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAAAASAf/aAAwDAQACEQMRAD8AzceVkWWNVYAyMAAAPr9qm4nntAkcJEw7l39ntEsdu2N1A1GdiMYb4pPiEaGzIdicuSNzk4oVqsq9AfdMKrzgoook/9k=",
+    "alt": "Los novios sonríen ante el oficiante en el altar",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAgT/xAAiEAACAAYBBQEAAAAAAAAAAAABAgADBAURIRITMTJBsUL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAJR/9oADAMBAAIRAxEAPwDK2eTUW2Sys3IlWLH3ny18hbVWdhS816aFXYDDeQ9bMUVv3R04I0JQ+RP1JJvE2kBPTMwBcknjo5g0ctDI3lMrkZBxBHVc5SUdY0sAt+sk47wREN//2Q==",
     "camera": "Nikon Z 6",
     "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/2.8",
-    "shutter": "1/3200s",
-    "iso": "ISO 200",
+    "f": "f/3.2",
+    "shutter": "1/1000s",
+    "iso": "ISO 320",
     "focal": "85mm"
   },
   {
@@ -345,7 +345,7 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-16.jpg",
+    "src": "/foto/bodas-13.jpg",
     "w": 2048,
     "h": 1365,
     "cat": "bodas",
@@ -373,18 +373,18 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-28.jpg",
+    "src": "/foto/bodas-20.jpg",
     "w": 2048,
-    "h": 1363,
+    "h": 1365,
     "cat": "bodas",
-    "alt": "Los novios sonríen ante el oficiante en el altar",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAgT/xAAiEAACAAYBBQEAAAAAAAAAAAABAgADBAURIRITMTJBsUL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAJR/9oADAMBAAIRAxEAPwDK2eTUW2Sys3IlWLH3ny18hbVWdhS816aFXYDDeQ9bMUVv3R04I0JQ+RP1JJvE2kBPTMwBcknjo5g0ctDI3lMrkZBxBHVc5SUdY0sAt+sk47wREN//2Q==",
-    "camera": "Nikon Z 6",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/3.2",
-    "shutter": "1/1000s",
-    "iso": "ISO 320",
-    "focal": "85mm"
+    "alt": "Retrato de dos invitadas elegantes antes de la ceremonia",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGAwX/xAAjEAACAQQBAwUAAAAAAAAAAAABAgMABBESIQUiMTJBUbHh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgME/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQIAETH/2gAMAwEAAhEDEQA/AGuJLdSAysQCcfVLXzs8peNm2i0xIDgAY7v2t1lbYAeNamOoXs0lzMrOShk9OePioTTVs5FB7qyUI7BlIZSMgj3FFcxbswxJGiAKq4HNFaDji9Hm/9k=",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z DX 24mm f/1.7",
+    "f": "f/1.7",
+    "shutter": "1/60s",
+    "iso": "ISO 125",
+    "focal": "24mm"
   },
   {
     "src": "/foto/eventos-28.jpg",
@@ -401,7 +401,7 @@ export const FOTOS: Foto[] = [
     "focal": "37mm"
   },
   {
-    "src": "/foto/bodas-17.jpg",
+    "src": "/foto/bodas-14.jpg",
     "w": 1363,
     "h": 2048,
     "cat": "bodas",
@@ -429,18 +429,18 @@ export const FOTOS: Foto[] = [
     "focal": "27mm"
   },
   {
-    "src": "/foto/bodas-11.jpg",
-    "w": 2048,
-    "h": 1363,
+    "src": "/foto/bodas-37.jpg",
+    "w": 1367,
+    "h": 2048,
     "cat": "bodas",
-    "alt": "Niño del cortejo entre los viñedos, con invitada al fondo",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCBAb/xAAhEAACAQQCAgMAAAAAAAAAAAABAhEAAwQSBSExQSNRcf/EABYBAQEBAAAAAAAAAAAAAAAAAAMBAv/EABcRAAMBAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AI2eRxVUDWH+lFWMp7ltGDWNdu1kGYpRhIAVuMNiCDB9xTTk8l2QA+fMj8o3bGUozual1b/xzqRMAnqii9cbf11RV0zh/9k=",
+    "alt": "Barra de mariscos colgante sobre la arena en el día de playa",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACAQAAICAgICAwAAAAAAAAAAAAECAAMEESEiEkExUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8AbrziLWu8hWAFHZuPmWKLUuTfkVPsH0ZESmm9OX2DrgddRk5CoxUMo19mAWogy2VjJTapQt20TszFr3U6HI/YQh1LN//Z",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/1.7",
-    "shutter": "1/2000s",
-    "iso": "ISO 80",
-    "focal": "24mm"
+    "lens": "50mm f/1.8D",
+    "f": "f/2",
+    "shutter": "1/2500s",
+    "iso": "ISO 50",
+    "focal": "50mm"
   },
   {
     "src": "/foto/eventos-11.jpg",
@@ -457,7 +457,7 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-18.jpg",
+    "src": "/foto/bodas-15.jpg",
     "w": 2048,
     "h": 1363,
     "cat": "bodas",
@@ -485,16 +485,16 @@ export const FOTOS: Foto[] = [
     "focal": "28mm"
   },
   {
-    "src": "/foto/bodas-49.jpg",
+    "src": "/foto/bodas-42.jpg",
     "w": 2048,
     "h": 1367,
     "cat": "bodas",
-    "alt": "Familia sonriente en la playa entre las rocas",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAfEAACAgIDAQEBAAAAAAAAAAABAgMRAAQFITESE6H/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQP/xAAZEQADAQEBAAAAAAAAAAAAAAAAAQIRIWH/2gAMAwEAAhEDEQA/AKLbSaZgUK6lzZArzO80k8SMDIpruz7V9/zrIfNuTBA4sN8kWDmdvYlXjoSsj9gE/Rsm79OR02tHELvg1Nx7bD/qrLTi/cMUl35lKqlAAV5eGZ6M/9k=",
+    "alt": "Invitados conviviendo bajo sombrillas de playa",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACMQAAIBBAEDBQAAAAAAAAAAAAECAwAEESESBRMxIkJSYWL/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERAv/aAAwDAQACEQMRAD8AbtuoQonGbmTr9bpsXMMtmGcekgg49uvNSOpW0dp2JIAU5MVYAneqIbYdpWjcqWJBzvNRrUcNVlNUoW00c8QeLLx+Fb5YorO1BFsgV3Ax4B+6KVQQ/9k=",
     "camera": "Nikon Z 5",
     "lens": "NIKKOR Z 28mm f/2.8",
     "f": "f/2.8",
-    "shutter": "1/800s",
+    "shutter": "1/2000s",
     "iso": "ISO 50",
     "focal": "28mm"
   },
@@ -513,18 +513,18 @@ export const FOTOS: Foto[] = [
     "focal": "29mm"
   },
   {
-    "src": "/foto/bodas-29.jpg",
-    "w": 2048,
-    "h": 1363,
+    "src": "/foto/bodas-16.jpg",
+    "w": 1367,
+    "h": 2048,
     "cat": "bodas",
-    "alt": "Los novios tomados de la mano en el altar",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQACA//EACMQAAIBBAEDBQAAAAAAAAAAAAECAwAEBRESEyExMlJhccH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAQEBAQAAAAAAAAAAAAAAAAACIRH/2gAMAwEAAhEDEQA/ACkxj3N9HwCiCQcuR3rQ8j4rjkLOOCQ2ycDKkp0V8lTrsafw0I6MQDMFIJ0KDzjlMrdBff8Agozql43eXxS5dQepo+pDofVVFmQiqmn1/9k=",
-    "camera": "Nikon Z 6",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/3.2",
-    "shutter": "1/500s",
-    "iso": "ISO 320",
-    "focal": "85mm"
+    "alt": "Abrazo y brindis durante los preparativos, blanco y negro",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EACYQAAEDAwIFBQAAAAAAAAAAAAECAxEABBIxYRMUISNBJlFxsfD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AsqtfUXMoBkxksq6Y7D5BraeJdPuvLTEnFPtAmPulLm4ccukNspVLZOU6aiP29UrZJS0MyJ20oEbp9TTSMQnuuhKjHim7RZLZB8Giig//2Q==",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z DX 24mm f/1.7",
+    "f": "f/2.5",
+    "shutter": "1/400s",
+    "iso": "ISO 2500",
+    "focal": "24mm"
   },
   {
     "src": "/foto/oficios-06.jpg",
@@ -541,18 +541,18 @@ export const FOTOS: Foto[] = [
     "focal": null
   },
   {
-    "src": "/foto/bodas-19.jpg",
-    "w": 1367,
-    "h": 2048,
+    "src": "/foto/bodas-23.jpg",
+    "w": 2048,
+    "h": 1363,
     "cat": "bodas",
-    "alt": "Abrazo y brindis durante los preparativos, blanco y negro",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EACYQAAEDAwIFBQAAAAAAAAAAAAECAxEABBIxYRMUISNBJlFxsfD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AsqtfUXMoBkxksq6Y7D5BraeJdPuvLTEnFPtAmPulLm4ccukNspVLZOU6aiP29UrZJS0MyJ20oEbp9TTSMQnuuhKjHim7RZLZB8Giig//2Q==",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/2.5",
-    "shutter": "1/400s",
-    "iso": "ISO 2500",
-    "focal": "24mm"
+    "alt": "Los novios tomados de la mano en el altar",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQACA//EACMQAAIBBAEDBQAAAAAAAAAAAAECAwAEBRESEyExMlJhccH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAQEBAQAAAAAAAAAAAAAAAAACIRH/2gAMAwEAAhEDEQA/ACkxj3N9HwCiCQcuR3rQ8j4rjkLOOCQ2ycDKkp0V8lTrsafw0I6MQDMFIJ0KDzjlMrdBff8Agozql43eXxS5dQepo+pDofVVFmQiqmn1/9k=",
+    "camera": "Nikon Z 6",
+    "lens": "NIKKOR Z 85mm f/1.8 S",
+    "f": "f/3.2",
+    "shutter": "1/500s",
+    "iso": "ISO 320",
+    "focal": "85mm"
   },
   {
     "src": "/foto/eventos-29.jpg",
@@ -569,17 +569,17 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-24.jpg",
+    "src": "/foto/bodas-17.jpg",
     "w": 1363,
     "h": 2048,
     "cat": "bodas",
-    "alt": "El cortejo camina hacia la ceremonia por los viñedos",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEBQb/xAAjEAACAQQBAwUAAAAAAAAAAAABAgMABBESIQUxQSIykaHR/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABcRAQEBAQAAAAAAAAAAAAAAAAASARH/2gAMAwEAAhEDEQA/ANKy0ZVMa7RkZLdgKeSKF2O0SNg+a5rpomt7mKFmZoGDM67Hnx+VZPcT7FbZ3jUM3uPfnj6o74WdQQt6AcCkkdgcBj80UURn/9k=",
+    "alt": "El novio abotona los puños de su camisa",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACEQAAIBAwQDAQAAAAAAAAAAAAECAwAEERITIXEFMVHw/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AGb21eOxKqCyqoJIGWbn8aq2vgbGe1ie4gSRyg98gdfKx3BJbuoBII5wcE9Ux425gMOgO8ZUAlNXIz9oJevaujFGAqAjA7p6Y7ehkABdRnA90UUH/9k=",
     "camera": "Nikon Z 5",
     "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/1.7",
-    "shutter": "1/2000s",
-    "iso": "ISO 80",
+    "f": "f/2.5",
+    "shutter": "1/400s",
+    "iso": "ISO 1000",
     "focal": "24mm"
   },
   {
@@ -597,17 +597,17 @@ export const FOTOS: Foto[] = [
     "focal": null
   },
   {
-    "src": "/foto/bodas-23.jpg",
-    "w": 2048,
-    "h": 1365,
+    "src": "/foto/bodas-06.jpg",
+    "w": 1362,
+    "h": 2048,
     "cat": "bodas",
-    "alt": "Retrato de dos invitadas elegantes antes de la ceremonia",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGAwX/xAAjEAACAQQBAwUAAAAAAAAAAAABAgMABBESIQUiMTJBUbHh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgME/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQIAETH/2gAMAwEAAhEDEQA/AGuJLdSAysQCcfVLXzs8peNm2i0xIDgAY7v2t1lbYAeNamOoXs0lzMrOShk9OePioTTVs5FB7qyUI7BlIZSMgj3FFcxbswxJGiAKq4HNFaDji9Hm/9k=",
+    "alt": "Reloj dorado del novio sobre textura tejida, detalle de boda",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EACEQAQABBAEEAwAAAAAAAAAAAAECAAMRMRITISJhBEGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAASER/9oADAMBAAIRAxEAPwCW1bHx4xO2yWUrLbJPlyyaImj6p/wWEmYwjGRoMZxSr13p3EtL7DDj8XtU29VYhtR5uco42O6Z1GPbA+2iinRj/9k=",
     "camera": "Nikon Z 5",
     "lens": "NIKKOR Z DX 24mm f/1.7",
     "f": "f/1.7",
-    "shutter": "1/60s",
-    "iso": "ISO 125",
+    "shutter": "1/200s",
+    "iso": "ISO 2000",
     "focal": "24mm"
   },
   {
@@ -625,18 +625,18 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-45.jpg",
-    "w": 1367,
-    "h": 2048,
+    "src": "/foto/bodas-27.jpg",
+    "w": 2048,
+    "h": 1363,
     "cat": "bodas",
-    "alt": "Barra de mariscos colgante sobre la arena en el día de playa",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACAQAAICAgICAwAAAAAAAAAAAAECAAMEESEiEkExUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8AbrziLWu8hWAFHZuPmWKLUuTfkVPsH0ZESmm9OX2DrgddRk5CoxUMo19mAWogy2VjJTapQt20TszFr3U6HI/YQh1LN//Z",
+    "alt": "Invitados posando durante el cóctel al atardecer",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EACQQAAEEAQMDBQAAAAAAAAAAAAIBAwQRAAUSISIxURQVQXGB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEhAf/aAAwDAQACEQMRAD8Aqy5oR4qK1W8qq+KxB7WzaFXCY3NptNS44Ffj7pFyNB1ApROq42li33v8xP1Lj8SQRmS2qJV8V4ybyNP71Hd62BMw80qc4Zk33yQ0RvoGuyYYXox//9k=",
     "camera": "Nikon Z 5",
-    "lens": "50mm f/1.8D",
-    "f": "f/2",
-    "shutter": "1/2500s",
-    "iso": "ISO 50",
-    "focal": "50mm"
+    "lens": "NIKKOR Z 28mm f/2.8",
+    "f": "f/2.8",
+    "shutter": "1/800s",
+    "iso": "ISO 2500",
+    "focal": "28mm"
   },
   {
     "src": "/foto/retrato-09.jpg",
@@ -653,18 +653,18 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-50.jpg",
-    "w": 2048,
-    "h": 1367,
+    "src": "/foto/bodas-38.jpg",
+    "w": 1367,
+    "h": 2048,
     "cat": "bodas",
-    "alt": "Invitados conviviendo bajo sombrillas de playa",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACMQAAIBBAEDBQAAAAAAAAAAAAECAwAEESESBRMxIkJSYWL/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERAv/aAAwDAQACEQMRAD8AbtuoQonGbmTr9bpsXMMtmGcekgg49uvNSOpW0dp2JIAU5MVYAneqIbYdpWjcqWJBzvNRrUcNVlNUoW00c8QeLLx+Fb5YorO1BFsgV3Ax4B+6KVQQ/9k=",
+    "alt": "Camastros de madera y lino frente al mar",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACIQAAIBBAIBBQAAAAAAAAAAAAECAwAEERITITEFYYGRsf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDW2Erq7TcfFH4bkwP00/apCyMySONmJOCwpa2uPTTFG8XHGCNXgJ1Hx702b8JgW4LZGSVwPupbIrlqXZ2UMR6Xbbzt3VJTqoAAAoooE//Z",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 28mm f/2.8",
-    "f": "f/2.8",
-    "shutter": "1/2000s",
+    "lens": "NIKKOR Z 85mm f/1.8 S",
+    "f": "f/1.8",
+    "shutter": "1/5000s",
     "iso": "ISO 50",
-    "focal": "28mm"
+    "focal": "85mm"
   },
   {
     "src": "/foto/oficios-07.jpg",
@@ -681,17 +681,17 @@ export const FOTOS: Foto[] = [
     "focal": null
   },
   {
-    "src": "/foto/bodas-32.jpg",
+    "src": "/foto/bodas-44.jpg",
     "w": 2048,
-    "h": 1363,
+    "h": 1367,
     "cat": "bodas",
-    "alt": "La ceremonia bajo el arco de roca vista desde el pasillo",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAwT/xAAiEAACAQQBBAMAAAAAAAAAAAABAgMABBESBRMiUWExMkH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAYEQEBAAMAAAAAAAAAAAAAAAABABESIf/aAAwDAQACEQMRAD8ASxyGTRYhs5GCCcammbW88C9GYxiTG2UbIB8H3XLxEUNxc6vEu2ft6qg5aCJ7Ni0YOuKjloLTvVhx3TID4NFZNqzsYkVFz8EbflFME2b/2Q==",
-    "camera": "Nikon Z 6",
+    "alt": "Dos invitadas abrazadas durante la comida en la playa",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAfEAACAgIDAAMAAAAAAAAAAAABAgMRAAQFIVESQXL/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEiH/2gAMAwEAAhEDEQA/AHazTNO5aRksC6PY+hm5NU6sk4EzFQPezYHWcziVeHkZkaQyWnys/oZVym5Ku1PZDKr0FI66Aw84TWmjkdmJEV1VbFgHs1hkglaZFd/KA8GGZpZf/9k=",
+    "camera": "Nikon Z 5",
     "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/1.8",
-    "shutter": "1/1000s",
-    "iso": "ISO 200",
+    "f": "f/3.5",
+    "shutter": "1/640s",
+    "iso": "ISO 250",
     "focal": "85mm"
   },
   {
@@ -709,18 +709,18 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-20.jpg",
+    "src": "/foto/bodas-25.jpg",
     "w": 1363,
     "h": 2048,
     "cat": "bodas",
-    "alt": "El novio abotona los puños de su camisa",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACEQAAIBAwQDAQAAAAAAAAAAAAECAwAEERITIXEFMVHw/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AGb21eOxKqCyqoJIGWbn8aq2vgbGe1ie4gSRyg98gdfKx3BJbuoBII5wcE9Ux425gMOgO8ZUAlNXIz9oJevaujFGAqAjA7p6Y7ehkABdRnA90UUH/9k=",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/2.5",
-    "shutter": "1/400s",
-    "iso": "ISO 1000",
-    "focal": "24mm"
+    "alt": "Los novios sentados ante el oficiante bajo el arco de roca",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUDBAb/xAAjEAABAwMEAgMAAAAAAAAAAAABAAIDBAUREhMhMSJBYXGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhEDEQA/AEVNJHrAHkmtOGPgG2A/BOST+K/SWK2xRl00JkkDG5Y554OPjvKQ3Nr5a+SW2xOjhd21vABHeEbFJppKQCU7jh59avfCjnt1KSDtkfTiEIQpP//Z",
+    "camera": "Nikon Z 6",
+    "lens": "NIKKOR Z 85mm f/1.8 S",
+    "f": "f/1.8",
+    "shutter": "1/1000s",
+    "iso": "ISO 200",
+    "focal": "85mm"
   },
   {
     "src": "/foto/retrato-02.jpg",
@@ -737,17 +737,17 @@ export const FOTOS: Foto[] = [
     "focal": "50mm"
   },
   {
-    "src": "/foto/bodas-06.jpg",
-    "w": 1362,
-    "h": 2048,
+    "src": "/foto/bodas-03.jpg",
+    "w": 2048,
+    "h": 1363,
     "cat": "bodas",
-    "alt": "Reloj dorado del novio sobre textura tejida, detalle de boda",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EACEQAQABBAEEAwAAAAAAAAAAAAECAAMRMRITISJhBEGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAASER/9oADAMBAAIRAxEAPwCW1bHx4xO2yWUrLbJPlyyaImj6p/wWEmYwjGRoMZxSr13p3EtL7DDj8XtU29VYhtR5uco42O6Z1GPbA+2iinRj/9k=",
+    "alt": "Invitados elegantes caminando entre rocas, fotografía en blanco y negro",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGAQL/xAAjEAABBAEEAQUAAAAAAAAAAAABAAIDBBEFEhRBEyIxUmGS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AH7N+GpAzAx5G+gh2RuSlXXeRqDYjEWRyRgsJ7Pa647JaDcgARRlwAHfup6Cy5timfhC4D9FBQ2ZnGY7Wux9BC2R+CNoABGcIQf/2Q==",
     "camera": "Nikon Z 5",
     "lens": "NIKKOR Z DX 24mm f/1.7",
     "f": "f/1.7",
-    "shutter": "1/200s",
-    "iso": "ISO 2000",
+    "shutter": "1/2000s",
+    "iso": "ISO 80",
     "focal": "24mm"
   },
   {
@@ -765,18 +765,18 @@ export const FOTOS: Foto[] = [
     "focal": "28mm"
   },
   {
-    "src": "/foto/bodas-25.jpg",
-    "w": 1363,
-    "h": 2048,
+    "src": "/foto/bodas-18.jpg",
+    "w": 2048,
+    "h": 1367,
     "cat": "bodas",
-    "alt": "El novio encabeza el cortejo con las niñas de las flores",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQQA/8QAHhAAAgICAwEBAAAAAAAAAAAAAQIDEQASBAUhMZH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAAAASAf/aAAwDAQACEQMRAD8Ask7ZFkCKhYsaUAizjJ2qQELyEeNz7rreSDgxmVZA1uKC7GvQb/PuMEBmi25TmRwzANVWLNYa1SVNAgA/MWjVQAPAM2bAo//Z",
-    "camera": "Nikon Z 6",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/2.8",
-    "shutter": "1/3200s",
-    "iso": "ISO 200",
-    "focal": "85mm"
+    "alt": "Ajustando el corbatín frente al espejo del baño",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAhEAACAgICAQUAAAAAAAAAAAABAgMRAAQSIQUVIzEyUf/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAf/EABgRAAMBAQAAAAAAAAAAAAAAAAABIQIR/9oADAMBAAIRAxEAPwBnU1XZ2dSnAdcT+0Mz5WLb9JVNEFZSwsL0SK7zn47baWK+CryPdZYR/aBIBJ+ThrNFbhL0ZJYdCBN5XeYJ2SbNWavDGppyJPqMM2lxH//Z",
+    "camera": "Nikon Z 5",
+    "lens": "NIKKOR Z DX 24mm f/1.7",
+    "f": "f/2.5",
+    "shutter": "1/60s",
+    "iso": "ISO 160",
+    "focal": "24mm"
   },
   {
     "src": "/foto/eventos-15.jpg",
@@ -793,18 +793,18 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-35.jpg",
+    "src": "/foto/bodas-10.jpg",
     "w": 2048,
     "h": 1363,
     "cat": "bodas",
-    "alt": "Invitados posando durante el cóctel al atardecer",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EACQQAAEEAQMDBQAAAAAAAAAAAAIBAwQRAAUSISIxURQVQXGB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEhAf/aAAwDAQACEQMRAD8Aqy5oR4qK1W8qq+KxB7WzaFXCY3NptNS44Ffj7pFyNB1ApROq42li33v8xP1Lj8SQRmS2qJV8V4ybyNP71Hd62BMw80qc4Zk33yQ0RvoGuyYYXox//9k=",
+    "alt": "Anillos, reloj y corbatín del novio en composición sobre tejido",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EAB4QAQABBQEBAQEAAAAAAAAAAAECAAMEESExEgZh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwBMWEWySiOg7zys/wDQWZGPaTTA7sdu3zdUY2TONr53xaTNtGRaLasSTt1/KisdLvVDEm5Vj5iTZDEkJ32irSzGwEIqnve0U6CH/9k=",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 28mm f/2.8",
-    "f": "f/2.8",
-    "shutter": "1/800s",
-    "iso": "ISO 2500",
-    "focal": "28mm"
+    "lens": "NIKKOR Z DX 24mm f/1.7",
+    "f": "f/1.7",
+    "shutter": "1/200s",
+    "iso": "ISO 1000",
+    "focal": "24mm"
   },
   {
     "src": "/foto/retrato-10.jpg",
@@ -821,18 +821,18 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-46.jpg",
-    "w": 1367,
-    "h": 2048,
+    "src": "/foto/bodas-28.jpg",
+    "w": 2048,
+    "h": 1363,
     "cat": "bodas",
-    "alt": "Camastros de madera y lino frente al mar",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACIQAAIBBAIBBQAAAAAAAAAAAAECAwAEERITITEFYYGRsf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDW2Erq7TcfFH4bkwP00/apCyMySONmJOCwpa2uPTTFG8XHGCNXgJ1Hx702b8JgW4LZGSVwPupbIrlqXZ2UMR6Xbbzt3VJTqoAAAoooE//Z",
+    "alt": "Pareja de invitados junto al espejo de agua de la recepción",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EACQQAAICAgEEAQUAAAAAAAAAAAECAwQAERIFITFRIkFhgZGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEhEf/aAAwDAQACEQMRAD8AR6a1tlJjtTKd+GU6J/PbL8dk1KyvdlLcj8Si/b0PGZapIUjV9sSdggnYxvpdyV5bEMpEkYbkqt34/Tt+sprVXxcqSgOs66PsHDM/duMJhpdDj4B1/MMdPH//2Q==",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/1.8",
-    "shutter": "1/5000s",
-    "iso": "ISO 50",
-    "focal": "85mm"
+    "lens": "NIKKOR Z 28mm f/2.8",
+    "f": "f/2.8",
+    "shutter": "1/800s",
+    "iso": "ISO 2500",
+    "focal": "28mm"
   },
   {
     "src": "/foto/oficios-09.jpg",
@@ -849,17 +849,17 @@ export const FOTOS: Foto[] = [
     "focal": null
   },
   {
-    "src": "/foto/bodas-52.jpg",
-    "w": 2048,
-    "h": 1367,
+    "src": "/foto/bodas-30.jpg",
+    "w": 1363,
+    "h": 2048,
     "cat": "bodas",
-    "alt": "Dos invitadas abrazadas durante la comida en la playa",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAfEAACAgIDAAMAAAAAAAAAAAABAgMRAAQFIVESQXL/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEiH/2gAMAwEAAhEDEQA/AHazTNO5aRksC6PY+hm5NU6sk4EzFQPezYHWcziVeHkZkaQyWnys/oZVym5Ku1PZDKr0FI66Aw84TWmjkdmJEV1VbFgHs1hkglaZFd/KA8GGZpZf/9k=",
-    "camera": "Nikon Z 5",
+    "alt": "Mesa de la recepción iluminada con velas",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUCBv/EACMQAAICAgECBwAAAAAAAAAAAAECAxEABBIFEyEyQWFxgdH/xAAVAQEBAAAAAAAAAAAAAAAAAAADAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABEhH/2gAMAwEAAhEDEQA/AOd2F1b5wMynkatrGJyrsC+4rn7/ADK8cmosXajCsoXkW4igfX4yd1DaucEiOiPANHZr3yM9PqROE0gHnOYZ2diWNnGMUD//2Q==",
+    "camera": "Nikon Z 6",
     "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/3.5",
-    "shutter": "1/640s",
-    "iso": "ISO 250",
+    "f": "f/2",
+    "shutter": "1/100s",
+    "iso": "ISO 320",
     "focal": "85mm"
   },
   {
@@ -881,13 +881,13 @@ export const FOTOS: Foto[] = [
     "w": 1363,
     "h": 2048,
     "cat": "bodas",
-    "alt": "Los novios sentados ante el oficiante bajo el arco de roca",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUDBAb/xAAjEAABAwMEAgMAAAAAAAAAAAABAAIDBAUREhMhMSJBYXGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhEDEQA/AEVNJHrAHkmtOGPgG2A/BOST+K/SWK2xRl00JkkDG5Y554OPjvKQ3Nr5a+SW2xOjhd21vABHeEbFJppKQCU7jh59avfCjnt1KSDtkfTiEIQpP//Z",
-    "camera": "Nikon Z 6",
+    "alt": "Fuegos artificiales sobre la fiesta",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwb/xAAjEAACAQMDBAMAAAAAAAAAAAABAgMABBESIUEFIjFRE3GR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AFIbGOa2Sd0AYL4UEavWahXmgzkopAPuulsOpQfEkPdI247dv3NSOqIDdHI0DhRxU4pbsIwSskACnGX3PNZzEjDaiSSfP3RRTB//2Q==",
+    "camera": "Nikon Z 5",
     "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/1.8",
-    "shutter": "1/1000s",
-    "iso": "ISO 200",
+    "f": "f/2.5",
+    "shutter": "1/100s",
+    "iso": "ISO 1000",
     "focal": "85mm"
   },
   {
@@ -905,18 +905,18 @@ export const FOTOS: Foto[] = [
     "focal": "85mm"
   },
   {
-    "src": "/foto/bodas-03.jpg",
+    "src": "/foto/bodas-35.jpg",
     "w": 2048,
     "h": 1363,
     "cat": "bodas",
-    "alt": "Invitados elegantes caminando entre rocas, fotografía en blanco y negro",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGAQL/xAAjEAABBAEEAQUAAAAAAAAAAAABAAIDBBEFEhRBEyIxUmGS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AH7N+GpAzAx5G+gh2RuSlXXeRqDYjEWRyRgsJ7Pa647JaDcgARRlwAHfup6Cy5timfhC4D9FBQ2ZnGY7Wux9BC2R+CNoABGcIQf/2Q==",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/1.7",
-    "shutter": "1/2000s",
-    "iso": "ISO 80",
-    "focal": "24mm"
+    "alt": "La pista de baile encendida en plena fiesta",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgb/xAAkEAACAQMDAwUAAAAAAAAAAAABAgMABBESIUETMXEFIjJhwf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGhEAAgIDAAAAAAAAAAAAAAAAACEBAhESUf/aAAwDAQACEQMRAD8AhJFGzKtvJMYll0opPxPH7v8AdWLT0VZTJB1iAgBVycjJGzADmuUjneNtSHSa3b309pKskD6SOO4PkUzWuS90hu6miiu5Y5oOo6NpLZ742opy1tY3gWV9ReX3tg43Piigp9P/2Q==",
+    "camera": "Nikon Z 6",
+    "lens": "NIKKOR Z 28mm f/2.8",
+    "f": "f/6.3",
+    "shutter": "1/40s",
+    "iso": "ISO 1250",
+    "focal": "28mm"
   },
   {
     "src": "/foto/oficios-05.jpg",
@@ -933,18 +933,18 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-21.jpg",
-    "w": 2048,
-    "h": 1367,
+    "src": "/foto/bodas-39.jpg",
+    "w": 1367,
+    "h": 2048,
     "cat": "bodas",
-    "alt": "Ajustando el corbatín frente al espejo del baño",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAhEAACAgICAQUAAAAAAAAAAAABAgMRAAQSIQUVIzEyUf/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAf/EABgRAAMBAQAAAAAAAAAAAAAAAAABIQIR/9oADAMBAAIRAxEAPwBnU1XZ2dSnAdcT+0Mz5WLb9JVNEFZSwsL0SK7zn47baWK+CryPdZYR/aBIBJ+ThrNFbhL0ZJYdCBN5XeYJ2SbNWavDGppyJPqMM2lxH//Z",
+    "alt": "Sala lounge blanca montada sobre la arena",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAjEAACAgIBAgcAAAAAAAAAAAABAgMEABESITEGIlFhgZHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oADAMBAAIRAxEAPwDqmGrFCxrtGrAdAj9D7emTiWaffBRxQlerBR8DExOUYQVa9mJQeIC6IH3mS+Hrk0rSSWFLN38mv3DVZQDWurWZGinRjsKiHZ7knFtMwOGGRhY63//Z",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/2.5",
-    "shutter": "1/60s",
-    "iso": "ISO 160",
-    "focal": "24mm"
+    "lens": "NIKKOR Z 85mm f/1.8 S",
+    "f": "f/2.8",
+    "shutter": "1/2000s",
+    "iso": "ISO 50",
+    "focal": "85mm"
   },
   {
     "src": "/foto/eventos-20.jpg",
@@ -961,18 +961,18 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-13.jpg",
+    "src": "/foto/bodas-45.jpg",
     "w": 2048,
-    "h": 1363,
+    "h": 1367,
     "cat": "bodas",
-    "alt": "Anillos, reloj y corbatín del novio en composición sobre tejido",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EAB4QAQABBQEBAQEAAAAAAAAAAAECAAMEESExEgZh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwBMWEWySiOg7zys/wDQWZGPaTTA7sdu3zdUY2TONr53xaTNtGRaLasSTt1/KisdLvVDEm5Vj5iTZDEkJ32irSzGwEIqnve0U6CH/9k=",
+    "alt": "Abrazo grupal espontáneo en el día de playa",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EACEQAAEEAgIDAQEAAAAAAAAAAAECAwQRAAUSMSFRcUFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAC/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQACETH/2gAMAwEAAhEDEQA/AFNw5aVF4pZPMXwV7P5eZAyEPLaeZbu+KVju/fzH6+Qp+Gwt0Wp0BR+95ythLI2Sm+PS1Ku/PgYN65yPR1xhZ+2mRZJabQsJAFcbo/3LDbjZSo05TbTgSniDVexlkDnJpKjk/9k=",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/1.7",
-    "shutter": "1/200s",
-    "iso": "ISO 1000",
-    "focal": "24mm"
+    "lens": "NIKKOR Z 85mm f/1.8 S",
+    "f": "f/3.5",
+    "shutter": "1/640s",
+    "iso": "ISO 250",
+    "focal": "85mm"
   },
   {
     "src": "/foto/retrato-11.jpg",
@@ -989,17 +989,17 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-26.jpg",
-    "w": 1363,
+    "src": "/foto/bodas-43.jpg",
+    "w": 1367,
     "h": 2048,
     "cat": "bodas",
-    "alt": "Beso a la bebé del cortejo en la playa",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EACYQAAEEAAQFBQAAAAAAAAAAAAEAAgMRBAUSEwYhMWFxFCJBUfD/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwBgQwYaKtx1tbz6GzfZO5XmOI9E3XGbsin/AB47LEUEcMDY5SXPeSCALBTc0bNLAGimihX0pjW4jcRyuikwujkd5pv95VqT2kAdKQhEKv/Z",
-    "camera": "Nikon Z 6",
+    "alt": "Retrato en la playa con el acantilado de fondo",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EACIQAAEEAAYDAQAAAAAAAAAAAAEAAgMEBRESFCExIlFhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARMSH/2gAMAwEAAhEDEQA/AHS4k0RSbZkhe0EjU05JBjsWIo5Y6wOoZkvIKrvSgVj35cD6VvDXDYx8+/0qF32sMobRMjYGuPBeVRTOmpEA0dIQh5J2/9k=",
+    "camera": "Nikon Z 5",
     "lens": "NIKKOR Z 85mm f/1.8 S",
     "f": "f/2.8",
-    "shutter": "1/2000s",
-    "iso": "ISO 200",
+    "shutter": "1/2500s",
+    "iso": "ISO 100",
     "focal": "85mm"
   },
   {
@@ -1017,17 +1017,17 @@ export const FOTOS: Foto[] = [
     "focal": null
   },
   {
-    "src": "/foto/bodas-36.jpg",
-    "w": 2048,
-    "h": 1363,
+    "src": "/foto/bodas-26.jpg",
+    "w": 1363,
+    "h": 2048,
     "cat": "bodas",
-    "alt": "Pareja de invitados junto al espejo de agua de la recepción",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EACQQAAICAgEEAQUAAAAAAAAAAAECAwQAERIFITFRIkFhgZGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEhEf/aAAwDAQACEQMRAD8AR6a1tlJjtTKd+GU6J/PbL8dk1KyvdlLcj8Si/b0PGZapIUjV9sSdggnYxvpdyV5bEMpEkYbkqt34/Tt+sprVXxcqSgOs66PsHDM/duMJhpdDj4B1/MMdPH//2Q==",
+    "alt": "Los novios de pie en el altar entre arreglos florales",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EACMQAAIBAwMEAwAAAAAAAAAAAAECEQADBAUSEyExQVFhceH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AkMUt2ZY9fAHel3rhx7hR4VvKxEfFUMXAZXGyyzOwU7mWNpn2ayazi8ur5ChwqqRBiZkflCYpbVzkZHZQZA90m88kEhSfqiipm//Z",
     "camera": "Nikon Z 5",
     "lens": "NIKKOR Z 28mm f/2.8",
     "f": "f/2.8",
-    "shutter": "1/800s",
-    "iso": "ISO 2500",
+    "shutter": "1/400s",
+    "iso": "ISO 500",
     "focal": "28mm"
   },
   {
@@ -1045,16 +1045,16 @@ export const FOTOS: Foto[] = [
     "focal": "50mm"
   },
   {
-    "src": "/foto/bodas-38.jpg",
+    "src": "/foto/bodas-21.jpg",
     "w": 1363,
     "h": 2048,
     "cat": "bodas",
-    "alt": "Mesa de la recepción iluminada con velas",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUCBv/EACMQAAICAgECBwAAAAAAAAAAAAECAxEABBIFEyEyQWFxgdH/xAAVAQEBAAAAAAAAAAAAAAAAAAADAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABEhH/2gAMAwEAAhEDEQA/AOd2F1b5wMynkatrGJyrsC+4rn7/ADK8cmosXajCsoXkW4igfX4yd1DaucEiOiPANHZr3yM9PqROE0gHnOYZ2diWNnGMUD//2Q==",
+    "alt": "Invitados caminando hacia la ceremonia en la arena",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGAgT/xAAiEAABBAICAQUAAAAAAAAAAAABAgMEEQAhEzEFFDJhcdH/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwCmckBHvXWK9ez1zJH2Kya8xLlwXWiRaVg6Bvd/hx8QSZMZt3hbUFJsEneW08jtejNyA2py7CVAV8ijmmEBlhtpOwhASCe9YYZnw3//2Q==",
     "camera": "Nikon Z 6",
     "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/2",
-    "shutter": "1/100s",
+    "f": "f/3.2",
+    "shutter": "1/1250s",
     "iso": "ISO 320",
     "focal": "85mm"
   },
@@ -1073,18 +1073,18 @@ export const FOTOS: Foto[] = [
     "focal": "85mm"
   },
   {
-    "src": "/foto/bodas-41.jpg",
-    "w": 1363,
+    "src": "/foto/bodas-19.jpg",
+    "w": 1362,
     "h": 2048,
     "cat": "bodas",
-    "alt": "Fuegos artificiales sobre la fiesta",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwb/xAAjEAACAQMDBAMAAAAAAAAAAAABAgMABBESIUEFIjFRE3GR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AFIbGOa2Sd0AYL4UEavWahXmgzkopAPuulsOpQfEkPdI247dv3NSOqIDdHI0DhRxU4pbsIwSskACnGX3PNZzEjDaiSSfP3RRTB//2Q==",
+    "alt": "El novio baja la escalera en esmoquin",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAkEAACAgEDAgcAAAAAAAAAAAABAgADBAURITFBEhMUQmFx4f/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDbp/psLDFmSyqoboe/H5JW103Obl5WzlfrtFGrAZC41YG5Dg/Gx6xg+UgVAp4A2kZZihH5rlwfF7QJVffYrbBoQhC//9k=",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/2.5",
-    "shutter": "1/100s",
-    "iso": "ISO 1000",
-    "focal": "85mm"
+    "lens": "NIKKOR Z DX 24mm f/1.7",
+    "f": "f/1.7",
+    "shutter": "1/60s",
+    "iso": "ISO 50",
+    "focal": "24mm"
   },
   {
     "src": "/foto/oficios-15.jpg",
@@ -1101,20 +1101,6 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-43.jpg",
-    "w": 2048,
-    "h": 1363,
-    "cat": "bodas",
-    "alt": "La pista de baile encendida en plena fiesta",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgb/xAAkEAACAQMDAwUAAAAAAAAAAAABAgMABBESIUETMXEFIjJhwf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGhEAAgIDAAAAAAAAAAAAAAAAACEBAhESUf/aAAwDAQACEQMRAD8AhJFGzKtvJMYll0opPxPH7v8AdWLT0VZTJB1iAgBVycjJGzADmuUjneNtSHSa3b309pKskD6SOO4PkUzWuS90hu6miiu5Y5oOo6NpLZ742opy1tY3gWV9ReX3tg43Piigp9P/2Q==",
-    "camera": "Nikon Z 6",
-    "lens": "NIKKOR Z 28mm f/2.8",
-    "f": "f/6.3",
-    "shutter": "1/40s",
-    "iso": "ISO 1250",
-    "focal": "28mm"
-  },
-  {
     "src": "/foto/eventos-16.jpg",
     "w": 2048,
     "h": 1317,
@@ -1127,20 +1113,6 @@ export const FOTOS: Foto[] = [
     "shutter": "1/60s",
     "iso": "ISO 1250",
     "focal": "31mm"
-  },
-  {
-    "src": "/foto/bodas-47.jpg",
-    "w": 1367,
-    "h": 2048,
-    "cat": "bodas",
-    "alt": "Sala lounge blanca montada sobre la arena",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAjEAACAgIBAgcAAAAAAAAAAAABAgMEABESITEGIlFhgZHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oADAMBAAIRAxEAPwDqmGrFCxrtGrAdAj9D7emTiWaffBRxQlerBR8DExOUYQVa9mJQeIC6IH3mS+Hrk0rSSWFLN38mv3DVZQDWurWZGinRjsKiHZ7knFtMwOGGRhY63//Z",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/2.8",
-    "shutter": "1/2000s",
-    "iso": "ISO 50",
-    "focal": "85mm"
   },
   {
     "src": "/foto/retrato-06.jpg",
@@ -1157,18 +1129,18 @@ export const FOTOS: Foto[] = [
     "focal": "50mm"
   },
   {
-    "src": "/foto/bodas-53.jpg",
-    "w": 2048,
-    "h": 1367,
+    "src": "/foto/bodas-11.jpg",
+    "w": 1362,
+    "h": 2048,
     "cat": "bodas",
-    "alt": "Abrazo grupal espontáneo en el día de playa",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EACEQAAEEAgIDAQEAAAAAAAAAAAECAwQRAAUSMSFRcUFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAC/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQACETH/2gAMAwEAAhEDEQA/AFNw5aVF4pZPMXwV7P5eZAyEPLaeZbu+KVju/fzH6+Qp+Gwt0Wp0BR+95ythLI2Sm+PS1Ku/PgYN65yPR1xhZ+2mRZJabQsJAFcbo/3LDbjZSo05TbTgSniDVexlkDnJpKjk/9k=",
+    "alt": "Argollas de matrimonio en primer plano sobre el corbatín",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EAB8QAAICAQUBAQAAAAAAAAAAAAECABEDBRIhMUEEE//EABQBAQAAAAAAAAAAAAAAAAAAAAT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhEDEQA/AG4goUH9cahAAU3CzFOjluMzKO6HkiYdU+g2+7EGXnlO5oxa+wQK4K14BYhtiisuUO4WYQiBn//Z",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/3.5",
-    "shutter": "1/640s",
-    "iso": "ISO 250",
-    "focal": "85mm"
+    "lens": "NIKKOR Z DX 24mm f/1.7",
+    "f": "f/1.7",
+    "shutter": "1/200s",
+    "iso": "ISO 2000",
+    "focal": "24mm"
   },
   {
     "src": "/foto/oficios-10.jpg",
@@ -1185,20 +1157,6 @@ export const FOTOS: Foto[] = [
     "focal": null
   },
   {
-    "src": "/foto/bodas-51.jpg",
-    "w": 1367,
-    "h": 2048,
-    "cat": "bodas",
-    "alt": "Retrato en la playa con el acantilado de fondo",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EACIQAAEEAAYDAQAAAAAAAAAAAAEAAgMEBRESFCExIlFhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARMSH/2gAMAwEAAhEDEQA/AHS4k0RSbZkhe0EjU05JBjsWIo5Y6wOoZkvIKrvSgVj35cD6VvDXDYx8+/0qF32sMobRMjYGuPBeVRTOmpEA0dIQh5J2/9k=",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/2.8",
-    "shutter": "1/2500s",
-    "iso": "ISO 100",
-    "focal": "85mm"
-  },
-  {
     "src": "/foto/eventos-31.jpg",
     "w": 2048,
     "h": 1367,
@@ -1211,20 +1169,6 @@ export const FOTOS: Foto[] = [
     "shutter": "1/100s",
     "iso": "ISO 1250",
     "focal": "29mm"
-  },
-  {
-    "src": "/foto/bodas-34.jpg",
-    "w": 1363,
-    "h": 2048,
-    "cat": "bodas",
-    "alt": "Los novios de pie en el altar entre arreglos florales",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EACMQAAIBAwMEAwAAAAAAAAAAAAECEQADBAUSEyExQVFhceH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AkMUt2ZY9fAHel3rhx7hR4VvKxEfFUMXAZXGyyzOwU7mWNpn2ayazi8ur5ChwqqRBiZkflCYpbVzkZHZQZA90m88kEhSfqiipm//Z",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 28mm f/2.8",
-    "f": "f/2.8",
-    "shutter": "1/400s",
-    "iso": "ISO 500",
-    "focal": "28mm"
   },
   {
     "src": "/foto/exteriores-01.jpg",
@@ -1241,20 +1185,6 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-27.jpg",
-    "w": 1363,
-    "h": 2048,
-    "cat": "bodas",
-    "alt": "Invitados caminando hacia la ceremonia en la arena",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGAgT/xAAiEAABBAICAQUAAAAAAAAAAAABAgMEEQAhEzEFFDJhcdH/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwCmckBHvXWK9ez1zJH2Kya8xLlwXWiRaVg6Bvd/hx8QSZMZt3hbUFJsEneW08jtejNyA2py7CVAV8ijmmEBlhtpOwhASCe9YYZnw3//2Q==",
-    "camera": "Nikon Z 6",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/3.2",
-    "shutter": "1/1250s",
-    "iso": "ISO 320",
-    "focal": "85mm"
-  },
-  {
     "src": "/foto/retrato-15.jpg",
     "w": 2048,
     "h": 1367,
@@ -1269,18 +1199,18 @@ export const FOTOS: Foto[] = [
     "focal": "85mm"
   },
   {
-    "src": "/foto/bodas-22.jpg",
-    "w": 1362,
-    "h": 2048,
+    "src": "/foto/bodas-29.jpg",
+    "w": 2048,
+    "h": 1363,
     "cat": "bodas",
-    "alt": "El novio baja la escalera en esmoquin",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAkEAACAgEDAgcAAAAAAAAAAAABAgADBAURITFBEhMUQmFx4f/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDbp/psLDFmSyqoboe/H5JW103Obl5WzlfrtFGrAZC41YG5Dg/Gx6xg+UgVAp4A2kZZihH5rlwfF7QJVffYrbBoQhC//9k=",
+    "alt": "Conversación animada entre invitadas en la recepción",
+    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQACBv/EACIQAAIBAwQDAQEAAAAAAAAAAAECAwAEERIhMUEFEyJhUf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAEAAhEh/9oADAMBAAIRAxEAPwAO1uStwFIBiOVD6Tz0M09L5pYIfUYsOcCIIdWVx+d1ytvdyQoo+WUHZSON+a1BIyyqV+T7Afnbvinpa6Tov5bdQs2qVjuDpXIH8P7VRfkZpEuMIwAx2M9mqob1yJkb/9k=",
     "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/1.7",
-    "shutter": "1/60s",
-    "iso": "ISO 50",
-    "focal": "24mm"
+    "lens": "NIKKOR Z 28mm f/2.8",
+    "f": "f/2.8",
+    "shutter": "1/800s",
+    "iso": "ISO 1600",
+    "focal": "28mm"
   },
   {
     "src": "/foto/oficios-16.jpg",
@@ -1297,20 +1227,6 @@ export const FOTOS: Foto[] = [
     "focal": "28mm"
   },
   {
-    "src": "/foto/bodas-14.jpg",
-    "w": 1362,
-    "h": 2048,
-    "cat": "bodas",
-    "alt": "Argollas de matrimonio en primer plano sobre el corbatín",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EAB8QAAICAQUBAQAAAAAAAAAAAAECABEDBRIhMUEEE//EABQBAQAAAAAAAAAAAAAAAAAAAAT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhEDEQA/AG4goUH9cahAAU3CzFOjluMzKO6HkiYdU+g2+7EGXnlO5oxa+wQK4K14BYhtiisuUO4WYQiBn//Z",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z DX 24mm f/1.7",
-    "f": "f/1.7",
-    "shutter": "1/200s",
-    "iso": "ISO 2000",
-    "focal": "24mm"
-  },
-  {
     "src": "/foto/eventos-21.jpg",
     "w": 2048,
     "h": 1367,
@@ -1323,20 +1239,6 @@ export const FOTOS: Foto[] = [
     "shutter": "1/60s",
     "iso": "ISO 5000",
     "focal": "27mm"
-  },
-  {
-    "src": "/foto/bodas-30.jpg",
-    "w": 2048,
-    "h": 1362,
-    "cat": "bodas",
-    "alt": "Niñas del cortejo e invitados durante la ceremonia",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EACQQAAIBBAAFBQAAAAAAAAAAAAECEQADBCEFEjFBYRMUUaHR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAXEQEBAQEAAAAAAAAAAAAAAAABABES/9oADAMBAAIRAxEAPwBljChFjlYBVCs+yD3FD8JTGsuGduSCqzsx5Pfx0rfvyb1zGNpCqwJ+ev5VByPUbdtdCRE6qa1Qok4dY5QZub7kDf1RSMrJuLegHQopyOm//9k=",
-    "camera": "Nikon Z 6",
-    "lens": "NIKKOR Z 85mm f/1.8 S",
-    "f": "f/1.8",
-    "shutter": "1/1250s",
-    "iso": "ISO 200",
-    "focal": "85mm"
   },
   {
     "src": "/foto/exteriores-08.jpg",
@@ -1353,20 +1255,6 @@ export const FOTOS: Foto[] = [
     "focal": "27mm"
   },
   {
-    "src": "/foto/bodas-37.jpg",
-    "w": 2048,
-    "h": 1363,
-    "cat": "bodas",
-    "alt": "Conversación animada entre invitadas en la recepción",
-    "blur": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQACBv/EACIQAAIBAwQDAQEAAAAAAAAAAAECAwAEERIhMUEFEyJhUf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAEAAhEh/9oADAMBAAIRAxEAPwAO1uStwFIBiOVD6Tz0M09L5pYIfUYsOcCIIdWVx+d1ytvdyQoo+WUHZSON+a1BIyyqV+T7Afnbvinpa6Tov5bdQs2qVjuDpXIH8P7VRfkZpEuMIwAx2M9mqob1yJkb/9k=",
-    "camera": "Nikon Z 5",
-    "lens": "NIKKOR Z 28mm f/2.8",
-    "f": "f/2.8",
-    "shutter": "1/800s",
-    "iso": "ISO 1600",
-    "focal": "28mm"
-  },
-  {
     "src": "/foto/retrato-07.jpg",
     "w": 2048,
     "h": 1907,
@@ -1381,7 +1269,7 @@ export const FOTOS: Foto[] = [
     "focal": "47mm"
   },
   {
-    "src": "/foto/bodas-31.jpg",
+    "src": "/foto/bodas-24.jpg",
     "w": 1367,
     "h": 2048,
     "cat": "bodas",
@@ -1451,7 +1339,7 @@ export const FOTOS: Foto[] = [
     "focal": "26mm"
   },
   {
-    "src": "/foto/bodas-39.jpg",
+    "src": "/foto/bodas-31.jpg",
     "w": 1363,
     "h": 2048,
     "cat": "bodas",
@@ -1521,7 +1409,7 @@ export const FOTOS: Foto[] = [
     "focal": "85mm"
   },
   {
-    "src": "/foto/bodas-40.jpg",
+    "src": "/foto/bodas-32.jpg",
     "w": 2048,
     "h": 1363,
     "cat": "bodas",
@@ -1591,7 +1479,7 @@ export const FOTOS: Foto[] = [
     "focal": null
   },
   {
-    "src": "/foto/bodas-42.jpg",
+    "src": "/foto/bodas-34.jpg",
     "w": 2048,
     "h": 1363,
     "cat": "bodas",
@@ -1661,7 +1549,7 @@ export const FOTOS: Foto[] = [
     "focal": "50mm"
   },
   {
-    "src": "/foto/bodas-44.jpg",
+    "src": "/foto/bodas-36.jpg",
     "w": 2048,
     "h": 1363,
     "cat": "bodas",
@@ -1745,7 +1633,7 @@ export const FOTOS: Foto[] = [
     "focal": "32mm"
   },
   {
-    "src": "/foto/bodas-48.jpg",
+    "src": "/foto/bodas-40.jpg",
     "w": 1367,
     "h": 2048,
     "cat": "bodas",
@@ -1829,7 +1717,7 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-54.jpg",
+    "src": "/foto/bodas-46.jpg",
     "w": 2048,
     "h": 1367,
     "cat": "bodas",
@@ -1913,7 +1801,7 @@ export const FOTOS: Foto[] = [
     "focal": "24mm"
   },
   {
-    "src": "/foto/bodas-55.jpg",
+    "src": "/foto/bodas-47.jpg",
     "w": 1367,
     "h": 2048,
     "cat": "bodas",
