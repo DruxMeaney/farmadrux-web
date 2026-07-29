@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Camera, Aperture } from "lucide-react";
-import { FOTOS } from "./data/photos";
 import { serifFoto } from "./fonts";
 
 const servicios = [
@@ -14,8 +13,14 @@ const servicios = [
   "Sesiones en exteriores",
 ];
 
+// Retrato del fotógrafo (no forma parte de la galería)
+const fotoLateral = {
+  src: "/foto/sobre-01.jpg",
+  alt: "Andrés (Drux), fotógrafo, de pie con la luz de una ventana proyectada en la pared",
+  blur: "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAgEAACAgICAgMAAAAAAAAAAAABAgMRAAQFIRJBE1GB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAwDAQACEQMRAD8A5nb46XSlWPYKKSR2GsfeH4uYsxhAkj8iFawL/Mh3Nn5ypa3cE3IxJseh36GWtXcgTVVGeZWDEkKxoZJjMJvF4xil/9k=",
+};
+
 export default function FotoSobre() {
-  const fotoLateral = FOTOS.find((f) => f.src === "/foto/exteriores-01.jpg") ?? FOTOS[0];
 
   return (
     <section id="sobre" className="relative bg-[#0d0d0d] py-24 md:py-32 scroll-mt-16">
@@ -36,7 +41,7 @@ export default function FotoSobre() {
               sizes="(max-width: 768px) 100vw, 50vw"
               placeholder="blur"
               blurDataURL={fotoLateral.blur}
-              className="object-cover"
+              className="object-cover object-[50%_30%]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d]/50 to-transparent" />
           </motion.div>
