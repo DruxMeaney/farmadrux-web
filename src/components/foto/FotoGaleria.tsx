@@ -1,9 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { CATEGORIAS, FOTOS, type Foto, type FotoCategoria } from "./data/photos";
+import { barajarGaleria } from "./ordenar";
 import FotoLightbox from "./FotoLightbox";
 import { serifFoto } from "./fonts";
 
@@ -19,10 +20,17 @@ const CAT_LABEL: Record<FotoCategoria, string> = {
 export default function FotoGaleria() {
   const [filtro, setFiltro] = useState<FotoCategoria | "todas">("todas");
   const [activa, setActiva] = useState<number | null>(null);
+  // Orden base estático para el prerender; al montar se baraja con las
+  // mismas reglas de dispersión, así cada visita ve la galería distinta.
+  const [orden, setOrden] = useState<Foto[]>(FOTOS);
+
+  useEffect(() => {
+    setOrden(barajarGaleria(FOTOS));
+  }, []);
 
   const fotos: Foto[] = useMemo(
-    () => (filtro === "todas" ? FOTOS : FOTOS.filter((f) => f.cat === filtro)),
-    [filtro]
+    () => (filtro === "todas" ? orden : orden.filter((f) => f.cat === filtro)),
+    [filtro, orden]
   );
 
   return (
@@ -74,6 +82,8 @@ export default function FotoGaleria() {
             >
               <button
                 onClick={() => setActiva(i)}
+                data-serie={foto.serie}
+                data-estilo={foto.estilo}
                 className="group relative block w-full overflow-hidden rounded-sm cursor-zoom-in"
                 aria-label={`Ampliar: ${foto.alt}`}
               >

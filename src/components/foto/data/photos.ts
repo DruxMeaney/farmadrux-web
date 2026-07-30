@@ -22,6 +22,10 @@ export interface Foto {
   shutter: string | null;
   iso: string | null;
   focal: string | null;
+  /** sesión/escena: dos de la misma serie nunca deben quedar juntas */
+  serie: string;
+  /** tono visual: dos del mismo estilo seguidas se evitan */
+  estilo: string;
 }
 
 export const CATEGORIAS: { id: FotoCategoria | "todas"; label: string }[] = [
@@ -46,7 +50,9 @@ export const HERO_FOTO: Foto = {
   "f": "f/4.2",
   "shutter": "1/1000s",
   "iso": "ISO 200",
-  "focal": "27mm"
+  "focal": "27mm",
+  "serie": "flora",
+  "estilo": "noche"
 };
 
 export const FOTOS: Foto[] = [
@@ -62,7 +68,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/100s",
     "iso": "ISO 500",
-    "focal": "50mm"
+    "focal": "50mm",
+    "serie": "estudio-ad5",
+    "estilo": "estudio"
   },
   {
     "src": "/foto/bodas-04.jpg",
@@ -76,7 +84,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/60s",
     "iso": "ISO 50",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "bn"
   },
   {
     "src": "/foto/eventos-01.jpg",
@@ -90,7 +100,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.8",
     "shutter": "1/60s",
     "iso": "ISO 4500",
-    "focal": "30mm"
+    "focal": "30mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-01.jpg",
@@ -104,7 +116,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.2",
     "shutter": "1/6400s",
     "iso": "ISO 800",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "boda-ceremonia",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-04.jpg",
@@ -118,7 +132,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5.3",
     "shutter": "1/60s",
     "iso": "ISO 7200",
-    "focal": "39mm"
+    "focal": "39mm",
+    "serie": "foro-panel",
+    "estilo": "noche"
   },
   {
     "src": "/foto/bodas-05.jpg",
@@ -132,7 +148,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/400s",
     "iso": "ISO 3200",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "bn"
   },
   {
     "src": "/foto/eventos-02.jpg",
@@ -146,7 +164,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.5",
     "shutter": "1/8s",
     "iso": "ISO 800",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-02.jpg",
@@ -160,7 +180,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/2000s",
     "iso": "ISO 250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-ceremonia",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-05.jpg",
@@ -174,7 +196,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/6s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-panel",
+    "estilo": "noche"
   },
   {
     "src": "/foto/bodas-07.jpg",
@@ -188,7 +212,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/200s",
     "iso": "ISO 800",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "bn"
   },
   {
     "src": "/foto/eventos-03.jpg",
@@ -202,7 +228,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/60s",
     "iso": "ISO 5600",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-09.jpg",
@@ -216,7 +244,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.2",
     "shutter": "1/1000s",
     "iso": "ISO 320",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "boda-ceremonia",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-07.jpg",
@@ -230,7 +260,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/20s",
     "iso": "ISO 1250",
-    "focal": "34mm"
+    "focal": "34mm",
+    "serie": "evento-calle",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-08.jpg",
@@ -244,7 +276,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/60s",
     "iso": "ISO 160",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "bn"
   },
   {
     "src": "/foto/eventos-09.jpg",
@@ -258,7 +292,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5.6",
     "shutter": "1/60s",
     "iso": "ISO 11400",
-    "focal": "43mm"
+    "focal": "43mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-41.jpg",
@@ -272,7 +308,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/800s",
     "iso": "ISO 50",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "playa-grupos",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/eventos-27.jpg",
@@ -286,7 +324,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/100s",
     "iso": "ISO 1250",
-    "focal": "34mm"
+    "focal": "34mm",
+    "serie": "terraza",
+    "estilo": "dia"
   },
   {
     "src": "/foto/bodas-12.jpg",
@@ -300,7 +340,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/250s",
     "iso": "ISO 500",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "bn"
   },
   {
     "src": "/foto/eventos-10.jpg",
@@ -314,7 +356,9 @@ export const FOTOS: Foto[] = [
     "f": "f/6.3",
     "shutter": "1/60s",
     "iso": "ISO 11400",
-    "focal": "50mm"
+    "focal": "50mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-22.jpg",
@@ -328,7 +372,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.2",
     "shutter": "1/1000s",
     "iso": "ISO 320",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "boda-ceremonia",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-06.jpg",
@@ -342,7 +388,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/60s",
     "iso": "ISO 5000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-panel",
+    "estilo": "noche"
   },
   {
     "src": "/foto/bodas-13.jpg",
@@ -356,7 +404,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/250s",
     "iso": "ISO 320",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "interior"
   },
   {
     "src": "/foto/eventos-08.jpg",
@@ -370,7 +420,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/25s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "evento-calle",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-37.jpg",
@@ -384,7 +436,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2",
     "shutter": "1/2500s",
     "iso": "ISO 50",
-    "focal": "50mm"
+    "focal": "50mm",
+    "serie": "playa-detalles",
+    "estilo": "dia"
   },
   {
     "src": "/foto/oficios-02.jpg",
@@ -398,7 +452,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.5",
     "shutter": "1/160s",
     "iso": "ISO 1000",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/eventos-28.jpg",
@@ -412,7 +468,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5.3",
     "shutter": "1/15s",
     "iso": "ISO 1250",
-    "focal": "37mm"
+    "focal": "37mm",
+    "serie": "terraza",
+    "estilo": "dia"
   },
   {
     "src": "/foto/bodas-14.jpg",
@@ -426,7 +484,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/100s",
     "iso": "ISO 250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "interior"
   },
   {
     "src": "/foto/oficios-06.jpg",
@@ -440,7 +500,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "tat-bf",
+    "estilo": "bn"
   },
   {
     "src": "/foto/bodas-42.jpg",
@@ -454,7 +516,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/2000s",
     "iso": "ISO 50",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "playa-grupos",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/eventos-12.jpg",
@@ -468,7 +532,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/60s",
     "iso": "ISO 4000",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-09.jpg",
@@ -482,7 +548,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/6400s",
     "iso": "ISO 800",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "campo-retrato",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-15.jpg",
@@ -496,7 +564,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/400s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "interior"
   },
   {
     "src": "/foto/eventos-11.jpg",
@@ -510,7 +580,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/60s",
     "iso": "ISO 7200",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-panel",
+    "estilo": "noche"
   },
   {
     "src": "/foto/bodas-23.jpg",
@@ -524,7 +596,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.2",
     "shutter": "1/500s",
     "iso": "ISO 320",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "boda-ceremonia",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-14.jpg",
@@ -538,7 +612,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/50s",
     "iso": "ISO 1250",
-    "focal": "29mm"
+    "focal": "29mm",
+    "serie": "evento-calle",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-16.jpg",
@@ -552,7 +628,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/400s",
     "iso": "ISO 2500",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "bn"
   },
   {
     "src": "/foto/eventos-29.jpg",
@@ -566,7 +644,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/15s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "terraza",
+    "estilo": "dia"
   },
   {
     "src": "/foto/bodas-20.jpg",
@@ -580,7 +660,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/60s",
     "iso": "ISO 125",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "recepcion-social",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-02.jpg",
@@ -594,7 +676,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/100s",
     "iso": "ISO 500",
-    "focal": "50mm"
+    "focal": "50mm",
+    "serie": "estudio-ad5",
+    "estilo": "estudio"
   },
   {
     "src": "/foto/bodas-38.jpg",
@@ -608,7 +692,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.8",
     "shutter": "1/5000s",
     "iso": "ISO 50",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "playa-detalles",
+    "estilo": "dia"
   },
   {
     "src": "/foto/oficios-03.jpg",
@@ -622,7 +708,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-10.jpg",
@@ -636,7 +724,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/800s",
     "iso": "ISO 800",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "campo-retrato",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-17.jpg",
@@ -650,7 +740,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/400s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "interior"
   },
   {
     "src": "/foto/oficios-09.jpg",
@@ -664,7 +756,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "bf-fachada",
+    "estilo": "noche"
   },
   {
     "src": "/foto/bodas-27.jpg",
@@ -678,7 +772,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/800s",
     "iso": "ISO 2500",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "recepcion-social",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/eventos-13.jpg",
@@ -692,7 +788,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/13s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-03.jpg",
@@ -706,7 +804,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/100s",
     "iso": "ISO 500",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "estudio-ad5",
+    "estilo": "estudio"
   },
   {
     "src": "/foto/bodas-06.jpg",
@@ -720,7 +820,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/200s",
     "iso": "ISO 2000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-detalle",
+    "estilo": "interior"
   },
   {
     "src": "/foto/eventos-22.jpg",
@@ -734,7 +836,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/60s",
     "iso": "ISO 5600",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-panel",
+    "estilo": "noche"
   },
   {
     "src": "/foto/bodas-44.jpg",
@@ -748,7 +852,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.5",
     "shutter": "1/640s",
     "iso": "ISO 250",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "playa-grupos",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/oficios-04.jpg",
@@ -762,7 +868,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.5",
     "shutter": "1/160s",
     "iso": "ISO 1000",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-25.jpg",
@@ -776,7 +884,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.8",
     "shutter": "1/1000s",
     "iso": "ISO 200",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "boda-ceremonia",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-15.jpg",
@@ -790,7 +900,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/80s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "evento-calle",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-03.jpg",
@@ -804,7 +916,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/2000s",
     "iso": "ISO 80",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-invitados",
+    "estilo": "bn"
   },
   {
     "src": "/foto/eventos-30.jpg",
@@ -818,7 +932,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/10s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "terraza",
+    "estilo": "dia"
   },
   {
     "src": "/foto/bodas-18.jpg",
@@ -832,7 +948,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/60s",
     "iso": "ISO 160",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "interior"
   },
   {
     "src": "/foto/oficios-10.jpg",
@@ -846,7 +964,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "bf-fachada",
+    "estilo": "bn"
   },
   {
     "src": "/foto/bodas-28.jpg",
@@ -860,7 +980,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/800s",
     "iso": "ISO 2500",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "recepcion-social",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/oficios-05.jpg",
@@ -874,7 +996,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/160s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-11.jpg",
@@ -888,7 +1012,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/2500s",
     "iso": "ISO 800",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "campo-retrato",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-10.jpg",
@@ -902,7 +1028,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/200s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-detalle",
+    "estilo": "interior"
   },
   {
     "src": "/foto/oficios-11.jpg",
@@ -916,7 +1044,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "bf-fachada",
+    "estilo": "dia"
   },
   {
     "src": "/foto/bodas-30.jpg",
@@ -930,7 +1060,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2",
     "shutter": "1/100s",
     "iso": "ISO 320",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "recepcion-detalle",
+    "estilo": "noche"
   },
   {
     "src": "/foto/eventos-20.jpg",
@@ -944,7 +1076,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/60s",
     "iso": "ISO 4000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-39.jpg",
@@ -958,7 +1092,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/2000s",
     "iso": "ISO 50",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "playa-detalles",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-23.jpg",
@@ -972,7 +1108,9 @@ export const FOTOS: Foto[] = [
     "f": "f/6.3",
     "shutter": "1/13s",
     "iso": "ISO 1000",
-    "focal": "50mm"
+    "focal": "50mm",
+    "serie": "foro-panel",
+    "estilo": "noche"
   },
   {
     "src": "/foto/retrato-04.jpg",
@@ -986,7 +1124,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/100s",
     "iso": "ISO 500",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "estudio-ad5",
+    "estilo": "estudio"
   },
   {
     "src": "/foto/bodas-33.jpg",
@@ -1000,7 +1140,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/100s",
     "iso": "ISO 1000",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "boda-fuegos",
+    "estilo": "noche"
   },
   {
     "src": "/foto/oficios-15.jpg",
@@ -1014,7 +1156,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/160s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-45.jpg",
@@ -1028,7 +1172,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.5",
     "shutter": "1/640s",
     "iso": "ISO 250",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "playa-grupos",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/oficios-07.jpg",
@@ -1042,7 +1188,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "tat-bf",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-35.jpg",
@@ -1056,7 +1204,9 @@ export const FOTOS: Foto[] = [
     "f": "f/6.3",
     "shutter": "1/40s",
     "iso": "ISO 1250",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "boda-fiesta",
+    "estilo": "noche"
   },
   {
     "src": "/foto/eventos-16.jpg",
@@ -1070,7 +1220,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/60s",
     "iso": "ISO 1250",
-    "focal": "31mm"
+    "focal": "31mm",
+    "serie": "evento-calle",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/oficios-16.jpg",
@@ -1084,7 +1236,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.5",
     "shutter": "1/160s",
     "iso": "ISO 1000",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-43.jpg",
@@ -1098,7 +1252,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/2500s",
     "iso": "ISO 100",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "playa-retratos",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/eventos-31.jpg",
@@ -1112,7 +1268,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/100s",
     "iso": "ISO 1250",
-    "focal": "29mm"
+    "focal": "29mm",
+    "serie": "terraza",
+    "estilo": "dia"
   },
   {
     "src": "/foto/retrato-07.jpg",
@@ -1126,7 +1284,9 @@ export const FOTOS: Foto[] = [
     "f": "f/6",
     "shutter": "1/30s",
     "iso": "ISO 1250",
-    "focal": "47mm"
+    "focal": "47mm",
+    "serie": "drag",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-26.jpg",
@@ -1140,7 +1300,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/400s",
     "iso": "ISO 500",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "boda-ceremonia",
+    "estilo": "dia"
   },
   {
     "src": "/foto/exteriores-01.jpg",
@@ -1154,7 +1316,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/800s",
     "iso": "ISO 200",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "dron-piloto",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/bodas-19.jpg",
@@ -1168,7 +1332,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/60s",
     "iso": "ISO 50",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-prep",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-15.jpg",
@@ -1182,7 +1348,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.5",
     "shutter": "1/100s",
     "iso": "ISO 500",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "estudio-ad5",
+    "estilo": "estudio"
   },
   {
     "src": "/foto/bodas-21.jpg",
@@ -1196,7 +1364,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.2",
     "shutter": "1/1250s",
     "iso": "ISO 320",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "boda-invitados",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-21.jpg",
@@ -1210,7 +1380,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/60s",
     "iso": "ISO 5000",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/exteriores-02.jpg",
@@ -1224,7 +1396,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.5",
     "shutter": "1/8000s",
     "iso": "ISO 800",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "dron-aire",
+    "estilo": "dia"
   },
   {
     "src": "/foto/bodas-11.jpg",
@@ -1238,7 +1412,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.7",
     "shutter": "1/200s",
     "iso": "ISO 2000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "boda-detalle",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-13.jpg",
@@ -1252,7 +1428,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/800s",
     "iso": "ISO 200",
-    "focal": "26mm"
+    "focal": "26mm",
+    "serie": "campo-retrato",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/oficios-12.jpg",
@@ -1266,7 +1444,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "bf-fachada",
+    "estilo": "bn"
   },
   {
     "src": "/foto/bodas-29.jpg",
@@ -1280,7 +1460,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/800s",
     "iso": "ISO 1600",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "recepcion-social",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/eventos-24.jpg",
@@ -1294,7 +1476,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/60s",
     "iso": "ISO 8000",
-    "focal": "34mm"
+    "focal": "34mm",
+    "serie": "foro-panel",
+    "estilo": "noche"
   },
   {
     "src": "/foto/bodas-24.jpg",
@@ -1308,7 +1492,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/800s",
     "iso": "ISO 250",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "boda-musica",
+    "estilo": "dia"
   },
   {
     "src": "/foto/exteriores-08.jpg",
@@ -1322,7 +1508,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.5",
     "shutter": "1/640s",
     "iso": "ISO 200",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "flora",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/retrato-06.jpg",
@@ -1336,7 +1524,9 @@ export const FOTOS: Foto[] = [
     "f": "f/10",
     "shutter": "1/100s",
     "iso": "ISO 400",
-    "focal": "50mm"
+    "focal": "50mm",
+    "serie": "estudio-fondo",
+    "estilo": "estudio"
   },
   {
     "src": "/foto/bodas-31.jpg",
@@ -1350,7 +1540,9 @@ export const FOTOS: Foto[] = [
     "f": "f/1.8",
     "shutter": "1/60s",
     "iso": "ISO 320",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "recepcion-detalle",
+    "estilo": "noche"
   },
   {
     "src": "/foto/oficios-17.jpg",
@@ -1364,7 +1556,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.5",
     "shutter": "1/160s",
     "iso": "ISO 1000",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/eventos-17.jpg",
@@ -1378,7 +1572,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/80s",
     "iso": "ISO 1250",
-    "focal": "33mm"
+    "focal": "33mm",
+    "serie": "evento-calle",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/exteriores-03.jpg",
@@ -1392,7 +1588,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/800s",
     "iso": "ISO 200",
-    "focal": "26mm"
+    "focal": "26mm",
+    "serie": "dron-piloto",
+    "estilo": "dia"
   },
   {
     "src": "/foto/retrato-05.jpg",
@@ -1406,7 +1604,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "estudio-neon",
+    "estilo": "noche"
   },
   {
     "src": "/foto/bodas-40.jpg",
@@ -1420,7 +1620,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.8",
     "shutter": "1/800s",
     "iso": "ISO 50",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "playa-detalles",
+    "estilo": "dia"
   },
   {
     "src": "/foto/oficios-08.jpg",
@@ -1434,7 +1636,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "tat-bf",
+    "estilo": "interior"
   },
   {
     "src": "/foto/eventos-32.jpg",
@@ -1448,7 +1652,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/60s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "terraza",
+    "estilo": "dia"
   },
   {
     "src": "/foto/exteriores-09.jpg",
@@ -1462,7 +1668,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.5",
     "shutter": "1/400s",
     "iso": "ISO 200",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "flora",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/retrato-16.jpg",
@@ -1476,7 +1684,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/100s",
     "iso": "ISO 500",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "estudio-ad5",
+    "estilo": "estudio"
   },
   {
     "src": "/foto/bodas-32.jpg",
@@ -1490,7 +1700,9 @@ export const FOTOS: Foto[] = [
     "f": "f/2.5",
     "shutter": "1/100s",
     "iso": "ISO 1000",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "boda-baile",
+    "estilo": "noche"
   },
   {
     "src": "/foto/oficios-18.jpg",
@@ -1504,7 +1716,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/160s",
     "iso": "ISO 1000",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/exteriores-05.jpg",
@@ -1518,7 +1732,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/800s",
     "iso": "ISO 200",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "dron-equipo",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-25.jpg",
@@ -1532,7 +1748,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/13s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-candids",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-08.jpg",
@@ -1546,7 +1764,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/40s",
     "iso": "ISO 1250",
-    "focal": "32mm"
+    "focal": "32mm",
+    "serie": "drag",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/oficios-13.jpg",
@@ -1560,7 +1780,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "tat-bf",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-46.jpg",
@@ -1574,7 +1796,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.5",
     "shutter": "1/640s",
     "iso": "ISO 250",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "playa-grupos",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/eventos-26.jpg",
@@ -1588,7 +1812,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/10s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-panel",
+    "estilo": "noche"
   },
   {
     "src": "/foto/ciudad-01.jpg",
@@ -1602,7 +1828,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/50s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "muro-enredadera",
+    "estilo": "dia"
   },
   {
     "src": "/foto/exteriores-10.jpg",
@@ -1616,7 +1844,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/1000s",
     "iso": "ISO 200",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "flora",
+    "estilo": "noche"
   },
   {
     "src": "/foto/retrato-12.jpg",
@@ -1630,7 +1860,9 @@ export const FOTOS: Foto[] = [
     "f": "f/10",
     "shutter": "1/100s",
     "iso": "ISO 400",
-    "focal": "50mm"
+    "focal": "50mm",
+    "serie": "estudio-fondo",
+    "estilo": "estudio"
   },
   {
     "src": "/foto/bodas-34.jpg",
@@ -1644,7 +1876,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.5",
     "shutter": "1/100s",
     "iso": "ISO 640",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "boda-fuegos",
+    "estilo": "noche"
   },
   {
     "src": "/foto/oficios-01.jpg",
@@ -1658,7 +1892,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "tat-dragonball",
+    "estilo": "interior"
   },
   {
     "src": "/foto/eventos-18.jpg",
@@ -1672,7 +1908,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.8",
     "shutter": "1/6s",
     "iso": "ISO 1250",
-    "focal": "31mm"
+    "focal": "31mm",
+    "serie": "evento-calle",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/exteriores-06.jpg",
@@ -1686,7 +1924,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5.3",
     "shutter": "1/800s",
     "iso": "ISO 200",
-    "focal": "37mm"
+    "focal": "37mm",
+    "serie": "dron-piloto",
+    "estilo": "dia"
   },
   {
     "src": "/foto/ciudad-03.jpg",
@@ -1700,7 +1940,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/25s",
     "iso": "ISO 800",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "gato",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-14.jpg",
@@ -1714,7 +1956,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/800s",
     "iso": "ISO 800",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "campo-retrato",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/oficios-19.jpg",
@@ -1728,7 +1972,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/160s",
     "iso": "ISO 1000",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "tat-rosa",
+    "estilo": "interior"
   },
   {
     "src": "/foto/bodas-47.jpg",
@@ -1742,7 +1988,9 @@ export const FOTOS: Foto[] = [
     "f": "f/3.5",
     "shutter": "1/200s",
     "iso": "ISO 250",
-    "focal": "85mm"
+    "focal": "85mm",
+    "serie": "playa-retratos",
+    "estilo": "dorado"
   },
   {
     "src": "/foto/eventos-19.jpg",
@@ -1756,7 +2004,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/60s",
     "iso": "ISO 4500",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "foro-backstage",
+    "estilo": "interior"
   },
   {
     "src": "/foto/exteriores-04.jpg",
@@ -1770,7 +2020,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/3200s",
     "iso": "ISO 200",
-    "focal": "35mm"
+    "focal": "35mm",
+    "serie": "dron-aire",
+    "estilo": "dia"
   },
   {
     "src": "/foto/bodas-36.jpg",
@@ -1784,7 +2036,9 @@ export const FOTOS: Foto[] = [
     "f": "f/6.3",
     "shutter": "1/40s",
     "iso": "ISO 1250",
-    "focal": "28mm"
+    "focal": "28mm",
+    "serie": "boda-fiesta",
+    "estilo": "noche"
   },
   {
     "src": "/foto/ciudad-04.jpg",
@@ -1798,7 +2052,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/40s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "muro-enredadera",
+    "estilo": "dia"
   },
   {
     "src": "/foto/oficios-14.jpg",
@@ -1812,7 +2068,9 @@ export const FOTOS: Foto[] = [
     "f": null,
     "shutter": null,
     "iso": null,
-    "focal": null
+    "focal": null,
+    "serie": "tat-bf",
+    "estilo": "interior"
   },
   {
     "src": "/foto/retrato-17.jpg",
@@ -1826,7 +2084,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4",
     "shutter": "1/8000s",
     "iso": "ISO 1000",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "escalinata",
+    "estilo": "dia"
   },
   {
     "src": "/foto/eventos-33.jpg",
@@ -1840,7 +2100,9 @@ export const FOTOS: Foto[] = [
     "f": "f/5.6",
     "shutter": "1/25s",
     "iso": "ISO 1250",
-    "focal": "43mm"
+    "focal": "43mm",
+    "serie": "terraza",
+    "estilo": "dia"
   },
   {
     "src": "/foto/exteriores-07.jpg",
@@ -1854,7 +2116,9 @@ export const FOTOS: Foto[] = [
     "f": "f/4.2",
     "shutter": "1/1000s",
     "iso": "ISO 200",
-    "focal": "27mm"
+    "focal": "27mm",
+    "serie": "dron-equipo",
+    "estilo": "dia"
   },
   {
     "src": "/foto/ciudad-02.jpg",
@@ -1868,6 +2132,8 @@ export const FOTOS: Foto[] = [
     "f": "f/5",
     "shutter": "1/80s",
     "iso": "ISO 1250",
-    "focal": "24mm"
+    "focal": "24mm",
+    "serie": "muro-puerta",
+    "estilo": "dia"
   }
 ];
